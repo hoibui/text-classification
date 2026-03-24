@@ -1,6 +1,6 @@
-# Charge Type Classification System
+# Text Classification System
 
-A professional, scalable ML system for classifying utility charge types with comprehensive MLOps capabilities.
+A professional, scalable ML system for text classification with comprehensive MLOps capabilities.
 
 ## Features
 
@@ -13,57 +13,93 @@ A professional, scalable ML system for classifying utility charge types with com
 
 ## Quick Start
 
-### 1. Setup Database
+### 1. Clone and Setup
 
-Ensure PostgreSQL is running on localhost:5432 with database 'mlops', user 'hoibui', password 'admin'.
+```bash
+git clone <repository-url>
+cd text-classification
+
+# Run automated setup (creates virtual environment and .env file)
+./setup.sh
+```
+
+### 2. Configure Environment
+
+Edit the `.env` file with your specific settings:
+
+```bash
+# Update these values in .env:
+PROJECT_ROOT=/your/path/to/text-classification
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=mlops
+DB_USER=your_username
+DB_PASSWORD=your_password
+MLFLOW_TRACKING_URI=postgresql://your_username:your_password@localhost:5432/mlflow_tracking
+```
+
+### 3. Setup Database
 
 ```bash
 python setup_database.py
 ```
 
-### 2. Install Dependencies
+### 4. Train the Model
 
 ```bash
-pip install -r requirements.txt
+./run_trainer.sh
+# or activate environment first:
+# source venv/bin/activate && python src/trainer.py
 ```
 
-### 3. Train the Model
-
-```bash
-python src/trainer.py
-```
-
-### 4. Start the API Server
+### 5. Start the API Server
 
 ```bash
 python -m uvicorn src.api:app --host 0.0.0.0 --port 8001
 ```
 
-### 5. Make Predictions
+### 6. Make Predictions
 
 ```bash
 curl -X POST "http://localhost:8001/predict" \
      -H "Content-Type: application/json" \
-     -d '{"text": "Peak energy usage charge"}'
+     -d '{"text": "Your text to classify here"}'
 ```
 
 ## Docker Deployment
 
+### Prerequisites
+First complete the setup steps to create your `.env` file with proper configuration.
+
 ### Build and Run
 
 ```bash
+# Make sure .env file is configured first
 docker-compose up -d
 ```
 
 This starts:
-- Charge Classification API (port 8000)
+- Text Classification API (port from API_PORT env var, default 8000)
 - MLflow Tracking Server (port 5000)
 - Prometheus Monitoring (port 9090)
 - Grafana Dashboard (port 3000)
 
+### Local Development with Docker
+
+For development with hot reloading and source code mounting:
+
+```bash
+# Copy and customize the override file
+cp docker-compose.override.yml.example docker-compose.override.yml
+
+# Edit docker-compose.override.yml and uncomment the development settings
+# Then start with the override
+docker-compose up -d
+```
+
 ### Access Services
 
-- API Documentation: http://localhost:8000/docs
+- API Documentation: http://localhost:${API_PORT}/docs (default: http://localhost:8000/docs)
 - MLflow UI: http://localhost:5000
 - Prometheus: http://localhost:9090
 - Grafana: http://localhost:3000 (admin/admin)
@@ -74,7 +110,7 @@ This starts:
 ```bash
 POST /predict
 {
-  "text": "Network connection fee",
+  "text": "Your text to classify",
   "return_confidence": true
 }
 ```
@@ -83,7 +119,7 @@ POST /predict
 ```bash
 POST /predict/batch
 {
-  "texts": ["Peak energy charge", "Network fee"],
+  "texts": ["First text to classify", "Second text to classify"],
   "return_confidence": true
 }
 ```
@@ -105,12 +141,23 @@ GET /metrics
 
 ## Configuration
 
-Edit `config.yaml` to customize:
+The system uses environment variables for configuration:
 
-- Model parameters
-- Training settings
-- MLOps configuration
-- Deployment settings
+### Environment Variables (.env file)
+
+- **PROJECT_ROOT**: Path to your project directory
+- **DB_HOST/DB_PORT/DB_USER/DB_PASSWORD**: Database connection settings
+- **MLFLOW_TRACKING_URI**: MLflow tracking server URL
+- **MLFLOW_EXPERIMENT_NAME**: Name for MLflow experiment
+- **MODEL_SAVE_PATH**: Directory to save trained models
+- **API_HOST/API_PORT**: API server configuration
+- **LOG_LEVEL**: Logging level (INFO, DEBUG, etc.)
+
+### Configuration Files
+
+- `.env`: Your personal environment configuration (not in git)
+- `.env.example`: Template file for team members
+- `config.yaml`: Model parameters and training settings (uses environment variables)
 
 ## Model Registry
 
@@ -123,7 +170,7 @@ registry = ModelRegistry()
 
 # Register a new model
 model_id = registry.register_model(
-    name="charge_classifier",
+    name="text_classifier",
     version="1.1.0",
     file_path="models/new_model.pkl",
     performance_metrics={"accuracy": 0.96},
@@ -131,7 +178,7 @@ model_id = registry.register_model(
 )
 
 # Load active model
-model = registry.load_active_model("charge_classifier")
+model = registry.load_active_model("text_classifier")
 ```
 
 ## Monitoring
@@ -155,7 +202,7 @@ GitHub Actions workflows provide:
 ## Project Structure
 
 ```
-classification/
+text-classification/
 ├── src/
 │   ├── __init__.py
 │   ├── trainer.py          # Model training pipeline
@@ -164,30 +211,37 @@ classification/
 │   └── model_registry.py   # Model versioning
 ├── data/
 │   └── train.csv           # Training data
-├── models/                 # Saved models
-├── logs/                   # Log files
+├── models/                 # Saved models (excluded from git)
+├── logs/                   # Log files (excluded from git)
+├── venv/                   # Virtual environment (excluded from git)
 ├── monitoring/
 │   └── prometheus.yml      # Prometheus configuration
 ├── .github/
 │   └── workflows/          # CI/CD pipelines
-├── config.yaml            # Configuration file
-├── requirements.txt       # Python dependencies
-├── Dockerfile             # Container image
-├── docker-compose.yml     # Multi-service deployment
-└── README.md              # This file
+├── .env                    # Environment variables (excluded from git)
+├── .env.example            # Environment template (included in git)
+├── config.yaml             # Configuration file (uses env variables)
+├── requirements.txt        # Python dependencies
+├── setup.sh                # Automated setup script
+├── run_trainer.sh          # Script to run trainer
+├── Dockerfile              # Container image
+├── docker-compose.yml      # Multi-service deployment
+├── docker-compose.override.yml        # Local dev overrides (excluded from git)
+├── docker-compose.override.yml.example # Override template (included in git)
+└── README.md               # This file
 ```
 
 ## Data Format
 
 Training data should be in CSV format with two columns:
-- Column 1: Label (charge type)
+- Column 1: Label (classification category)
 - Column 2: Text description
 
 Example:
 ```csv
-ENERGY_LINE_ITEMS,Peak energy usage charge
-NETWORK_SERVICE,Network connection fee
-DISCOUNTS,Customer discount applied
+CATEGORY_A,Text sample for category A
+CATEGORY_B,Text sample for category B
+CATEGORY_C,Text sample for category C
 ```
 
 ## Model Performance

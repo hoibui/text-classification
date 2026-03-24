@@ -14,9 +14,9 @@ COPY . .
 
 RUN mkdir -p logs models
 
-EXPOSE 8001
+EXPOSE ${API_PORT:-8000}
 
 HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
-    CMD curl -f http://localhost:8001/health || exit 1
+    CMD curl -f http://localhost:${API_PORT:-8000}/health || exit 1
 
-CMD ["python", "-m", "uvicorn", "src.api:app", "--host", "0.0.0.0", "--port", "8001"]
+CMD ["sh", "-c", "python -m uvicorn src.api:app --host 0.0.0.0 --port ${API_PORT:-8000}"]

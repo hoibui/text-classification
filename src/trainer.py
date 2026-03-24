@@ -3,6 +3,8 @@ import yaml
 import logging
 import mlflow
 import mlflow.sklearn
+from dotenv import load_dotenv
+import string
 import pandas as pd
 import numpy as np
 from typing import Dict, Any, Tuple, List
@@ -19,8 +21,16 @@ from datetime import datetime
 
 class ModelTrainer:
     def __init__(self, config_path: str = "config.yaml"):
+        # Load environment variables
+        load_dotenv()
+
+        # Load and substitute environment variables in config
         with open(config_path, 'r') as file:
-            self.config = yaml.safe_load(file)
+            config_content = file.read()
+
+        # Substitute environment variables
+        config_content = string.Template(config_content).safe_substitute(os.environ)
+        self.config = yaml.safe_load(config_content)
 
         self.setup_logging()
         self.setup_mlflow()
@@ -42,7 +52,7 @@ class ModelTrainer:
     def setup_mlflow(self):
         if self.config['mlops']['experiment_tracking']['enabled']:
             mlflow.set_tracking_uri(self.config['mlops']['experiment_tracking']['tracking_uri'])
-            mlflow.set_experiment("charge_classification")
+            mlflow.set_experiment(os.getenv('MLFLOW_EXPERIMENT_NAME', 'text_classification'))
 
     def load_data(self) -> Tuple[pd.DataFrame, np.ndarray]:
         self.logger.info("Loading training data...")
@@ -165,9 +175,12 @@ class ModelTrainer:
     def save_best_model(self, filename: str = None):
         if not filename:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"models/best_model_{timestamp}.pkl"
+            model_path = os.getenv('MODEL_SAVE_PATH', 'models')
+            model_prefix = os.getenv('MODEL_NAME_PREFIX', 'best_model')
+            filename = f"{model_path}/{model_prefix}_{timestamp}.pkl"
 
-        os.makedirs("models", exist_ok=True)
+        model_path = os.getenv('MODEL_SAVE_PATH', 'models')
+        os.makedirs(model_path, exist_ok=True)
 
         model_data = {
             'model': self.best_model_info['model'],
@@ -187,7 +200,7 @@ class ModelTrainer:
         return filename
 
     def train(self) -> str:
-        with mlflow.start_run(run_name="charge_classification_training"):
+        with mlflow.start_run(run_name=os.getenv('MLFLOW_RUN_NAME', 'text_classification_training')):
             df, labels_encoded = self.load_data()
             X_train, X_test, y_train, y_test = self.split_data(df, labels_encoded)
 

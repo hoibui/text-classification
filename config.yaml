@@ -1,8 +1,8 @@
 training:
-  data_path: "data/train.csv"
-  test_size: 0.2
-  random_state: 42
-  cross_validation_folds: 5
+  data_path: "${DATA_PATH}"
+  test_size: ${TEST_SIZE}
+  random_state: ${RANDOM_STATE}
+  cross_validation_folds: ${CV_FOLDS}
 
 models:
   traditional:
@@ -67,26 +67,26 @@ mlops:
   experiment_tracking:
     enabled: true
     backend: "mlflow"
-    tracking_uri: "postgresql://hoibui:admin@localhost:5432/mlflow_tracking"
+    tracking_uri: "${MLFLOW_TRACKING_URI}"
 
   model_registry:
     enabled: true
     database:
-      host: "localhost"
-      port: 5432
-      database: "mlops"
-      user: "hoibui"
-      password: "admin"
+      host: "${DB_HOST}"
+      port: ${DB_PORT}
+      database: "${DB_NAME}"
+      user: "${DB_USER}"
+      password: "${DB_PASSWORD}"
 
   monitoring:
-    enabled: true
-    log_level: "INFO"
-    metrics_port: 8080
+    enabled: ${MONITORING_ENABLED}
+    log_level: "${MONITORING_LOG_LEVEL}"
+    metrics_port: ${MONITORING_METRICS_PORT}
 
   deployment:
-    api_port: 8000
-    workers: 4
-    host: "0.0.0.0"
+    api_port: ${API_PORT}
+    workers: ${API_WORKERS}
+    host: "${API_HOST}"
 
 logging:
   version: 1
@@ -101,14 +101,14 @@ logging:
       class: "logging.StreamHandler"
       stream: "ext://sys.stdout"
     file:
-      level: "INFO"
+      level: "${LOG_LEVEL}"
       formatter: "standard"
       class: "logging.FileHandler"
-      filename: "logs/training.log"
+      filename: "${LOG_FILE}"
   loggers:
     "":
       level: "INFO"
       handlers: ["default", "file"]
   root:
-    level: "INFO"
+    level: "${LOG_LEVEL}"
     handlers: ["default"]
