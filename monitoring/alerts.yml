@@ -1,0 +1,47 @@
+groups:
+  - name: ml_model_alerts
+    rules:
+      - alert: ModelAPIDown
+        expr: up{job="charge-classifier-api"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "ML Model API is down"
+          description: "The charge classification API has been down for more than 1 minute"
+
+      - alert: HighResponseTime
+        expr: histogram_quantile(0.95, rate(prediction_duration_seconds_bucket[5m])) > 0.5
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High response time detected"
+          description: "95th percentile response time is {{ $value }}s"
+
+      - alert: HighErrorRate
+        expr: rate(errors_total[5m]) * 60 > 5
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High error rate"
+          description: "Error rate is {{ $value }} errors/minute"
+
+      - alert: LowPredictionVolume
+        expr: rate(predictions_total[10m]) * 600 < 1
+        for: 5m
+        labels:
+          severity: info
+        annotations:
+          summary: "Low prediction volume"
+          description: "Very few predictions in the last 10 minutes"
+
+      - alert: MemoryUsageHigh
+        expr: process_resident_memory_bytes{job="charge-classifier-api"} / 1024 / 1024 > 512
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High memory usage"
+          description: "Memory usage is {{ $value }}MB"

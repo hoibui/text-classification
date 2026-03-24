@@ -1,0 +1,114 @@
+training:
+  data_path: "data/train.csv"
+  test_size: 0.2
+  random_state: 42
+  cross_validation_folds: 5
+
+models:
+  traditional:
+    vectorizers:
+      - name: "tfidf_word"
+        type: "TfidfVectorizer"
+        params:
+          max_features: 10000
+          ngram_range: [1, 2]
+          stop_words: "english"
+      - name: "tfidf_char"
+        type: "TfidfVectorizer"
+        params:
+          max_features: 10000
+          analyzer: "char"
+          ngram_range: [2, 4]
+      - name: "count"
+        type: "CountVectorizer"
+        params:
+          max_features: 10000
+          ngram_range: [1, 2]
+          stop_words: "english"
+
+    classifiers:
+      - name: "logistic"
+        type: "LogisticRegression"
+        params:
+          random_state: 42
+          max_iter: 1000
+          C: 1.0
+      - name: "random_forest"
+        type: "RandomForestClassifier"
+        params:
+          n_estimators: 100
+          random_state: 42
+          n_jobs: -1
+      - name: "gradient_boost"
+        type: "GradientBoostingClassifier"
+        params:
+          n_estimators: 100
+          random_state: 42
+      - name: "svm"
+        type: "SVC"
+        params:
+          kernel: "rbf"
+          random_state: 42
+          probability: true
+      - name: "naive_bayes"
+        type: "MultinomialNB"
+        params: {}
+
+  transformer:
+    model_name: "distilbert-base-uncased"
+    max_length: 128
+    batch_size: 16
+    epochs: 3
+    learning_rate: 2e-5
+    warmup_steps: 500
+    weight_decay: 0.01
+
+mlops:
+  experiment_tracking:
+    enabled: true
+    backend: "mlflow"
+    tracking_uri: "postgresql://hoibui:admin@localhost:5432/mlflow_tracking"
+
+  model_registry:
+    enabled: true
+    database:
+      host: "localhost"
+      port: 5432
+      database: "mlops"
+      user: "hoibui"
+      password: "admin"
+
+  monitoring:
+    enabled: true
+    log_level: "INFO"
+    metrics_port: 8080
+
+  deployment:
+    api_port: 8000
+    workers: 4
+    host: "0.0.0.0"
+
+logging:
+  version: 1
+  disable_existing_loggers: false
+  formatters:
+    standard:
+      format: "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+  handlers:
+    default:
+      level: "INFO"
+      formatter: "standard"
+      class: "logging.StreamHandler"
+      stream: "ext://sys.stdout"
+    file:
+      level: "INFO"
+      formatter: "standard"
+      class: "logging.FileHandler"
+      filename: "logs/training.log"
+  loggers:
+    "":
+      level: "INFO"
+      handlers: ["default", "file"]
+  root:
+    level: "INFO"
+    handlers: ["default"]

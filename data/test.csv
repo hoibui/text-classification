@@ -1,0 +1,1422 @@
+CAPACITIES,Agreed Supply Capacity Charge
+CAPACITIES,Agreed Supply Capacity Excess
+CAPACITIES,Authorised Demand
+CAPACITIES,Availability
+CAPACITIES,Availability Charge
+CAPACITIES,Cap Meter Service
+CAPACITIES,Capacity
+CAPACITIES,Capacity and Energy
+CAPACITIES,Capacity Charge
+CAPACITIES,Capacity Demand Charge
+CAPACITIES,Capacity Distance
+CAPACITIES,Capacity kVA
+CAPACITIES,Capacity kW
+CAPACITIES,Capacity Market
+CAPACITIES,Capacity Mechanism
+CAPACITIES,Change in Capacity Cost
+CAPACITIES,Delivery Capacity
+CAPACITIES,Demand Capacity
+CAPACITIES,Distance Charge
+CAPACITIES,DUOS Capacity
+CAPACITIES,DUOS Capacity Charge
+CAPACITIES,Environmental Charges - Peak Capacity
+CAPACITIES,Excess Capacity Charge
+CAPACITIES,Facilities Charge
+CAPACITIES,Fixed Daily Capacity Charge
+CAPACITIES,Jul 2019 Capacity charge adjustment
+CAPACITIES,kVA-km Fixed
+CAPACITIES,Local Capcity Charge
+CAPACITIES,Network - Capacity
+CAPACITIES,Network - Rolling Capacity
+CAPACITIES,Network charges - Capacity
+CAPACITIES,Network charges - Capacity Charge
+CAPACITIES,Network charges - Capacity Demand Charge
+CAPACITIES,Network charges - Capacity Distance
+CAPACITIES,Network charges - Capacity kVA
+CAPACITIES,Network charges - Capacity kW
+CAPACITIES,Network Charges - Demand Capacity
+CAPACITIES,Network charges - DUOS Capacity
+CAPACITIES,Network charges - DUOS Capacity Charge
+CAPACITIES,Network charges - Local Capcity Charge
+CAPACITIES,Network charges - Peak Capacity
+CAPACITIES,Network charges - Rolling Capacity
+CAPACITIES,Network charges - Transmission Capacity Charge
+CAPACITIES,Network charges - TUOS Capacity
+CAPACITIES,Network charges - TUOS Capacity Charge
+CAPACITIES,NonCap Meter Service
+CAPACITIES,Peak Capacity
+CAPACITIES,Power Factor Charge
+CAPACITIES,PowerFreeze Capacity
+CAPACITIES,Pressure Reduction Charge
+CAPACITIES,Rolling Capacity
+CAPACITIES,SA REPS Charge
+CAPACITIES,Transformer Capacity Charge
+CAPACITIES,Transmission Capacity Charge
+CAPACITIES,TUOS Capacity
+CAPACITIES,TUOS Capacity Charge
+CERTIFICATES,ACT Energy
+CERTIFICATES,Additional Charges and Credits - Environmental Adj Jan and Feb 2019
+CERTIFICATES,"Additional Charges, Credits & Adjustments - Environmental Adj Jan and Feb 2019"
+CERTIFICATES,EEIS Charge
+CERTIFICATES,Energy Plan & Price Change - LGC
+CERTIFICATES,Environmental - ESC Charge
+CERTIFICATES,Environmental - LREC Charge
+CERTIFICATES,Environmental - PRC Charge
+CERTIFICATES,Environmental - SREC Charge
+CERTIFICATES,Environmental - VEEC Charge
+CERTIFICATES,Environmental Charges - ESC Charge
+CERTIFICATES,Environmental Charges - LREC Charge
+CERTIFICATES,Environmental Charges - LRET Charge
+CERTIFICATES,Environmental Charges - NSW Energy Saving Scheme
+CERTIFICATES,Environmental Charges - PRC Charge
+CERTIFICATES,Environmental Charges - REPS Charge
+CERTIFICATES,Environmental Charges - SA REPS Charge
+CERTIFICATES,Environmental Charges - SREC Charge
+CERTIFICATES,Environmental Charges - SRES Charge
+CERTIFICATES,Environmental Charges - VEEC Charge
+CERTIFICATES,Environmental Charges - VEET
+CERTIFICATES,Environmental Charges - VEET Charge
+CERTIFICATES,Environmental Schemes - LRECs
+CERTIFICATES,Environmental Schemes - NESC
+CERTIFICATES,Environmental Schemes - SRECs
+CERTIFICATES,Environmental Schemes - VEECs
+CERTIFICATES,EREP Exemption
+CERTIFICATES,ESC
+CERTIFICATES,ESC Charge
+CERTIFICATES,ESC Exemption
+CERTIFICATES,ESS
+CERTIFICATES,GEC
+CERTIFICATES,LGC
+CERTIFICATES,LREC
+CERTIFICATES,LREC Charge
+CERTIFICATES,LREC PEC Charge
+CERTIFICATES,LRECs
+CERTIFICATES,LRET
+CERTIFICATES,LRET Charge
+CERTIFICATES,NESC
+CERTIFICATES,Network - Feed-In Credit
+CERTIFICATES,Network Charges - Feed-In Credit *
+CERTIFICATES,NSW Energy Saving Scheme
+CERTIFICATES,Other - SREC Adjustment Jan 17 - Feb 17
+CERTIFICATES,Other - SREC Charge
+CERTIFICATES,Other Charges - E&REC - VEET Charge
+CERTIFICATES,Other Charges - E&REC VEET Charge
+CERTIFICATES,REC
+CERTIFICATES,Renewable Energy Charge - PDRS
+CERTIFICATES,RENEWABLE ENERGY CHARGES - E & REC - LRET
+CERTIFICATES,RENEWABLE ENERGY CHARGES - E & REC LRET
+CERTIFICATES,RENEWABLE ENERGY CHARGES - E & REC NSW ESS Flexi Renewable
+CERTIFICATES,RENEWABLE ENERGY CHARGES - E & REC SRES
+CERTIFICATES,Renewable Energy Charges - E&REC - LRET Flexi Renewable
+CERTIFICATES,Renewable Energy Charges - E&REC - SRES Flexi Renewable
+CERTIFICATES,Renewable Energy Charges - E&REC - VEET Flexi Renewable
+CERTIFICATES,Renewable Energy Charges - E&REC LRET Flexi Renewable
+CERTIFICATES,Renewable Energy Charges - E&REC NSW ESS Flexi Renewable
+CERTIFICATES,Renewable Energy Charges - E&REC SRES
+CERTIFICATES,Renewable Energy Charges - E&REC SRES Flexi Renewable
+CERTIFICATES,Renewable Energy Charges - E&REC VEET Flexi Renewable
+CERTIFICATES,RENEWABLE ENERGY CHARGES - E&REC- LRET Flexi Renewable
+CERTIFICATES,RENEWABLE ENERGY CHARGES - E&REC- SRESFlexi Renewable
+CERTIFICATES,REPS Charge
+CERTIFICATES,REPS Exemption
+CERTIFICATES,SREC
+CERTIFICATES,SREC Adjuctment
+CERTIFICATES,SREC Charge
+CERTIFICATES,SREC PEC Charge
+CERTIFICATES,SRECs
+CERTIFICATES,SRES
+CERTIFICATES,SRES Charge
+CERTIFICATES,Unchanged rate - LGC
+CERTIFICATES,VEEC
+CERTIFICATES,VEEC Adj
+CERTIFICATES,VEEC Charge
+CERTIFICATES,VEEC Exemption
+CERTIFICATES,VEECs
+CERTIFICATES,VEET
+CERTIFICATES,VEET Charge
+CERTIFICATES,Victorian Energy Efficiency Cert
+DEMANDS,* Longford Peak Inject Charges
+DEMANDS,Actual Demand
+DEMANDS,Actual Demand Charge
+DEMANDS,Additional Demand
+DEMANDS,Annual Block 1 Demand Rate
+DEMANDS,Annual Block 2 Demand Rate
+DEMANDS,Annual Block 3 Demand Rate
+DEMANDS,Annual Block 4 Demand Rate
+DEMANDS,Anytime Actual Demand
+DEMANDS,Anytime Demand
+DEMANDS,Chargeable Demand
+DEMANDS,Contract Demand Charge
+DEMANDS,Critical Peak Demand
+DEMANDS,Dec-Mar Demand
+DEMANDS,Demand
+DEMANDS,Demand and Capacity - Demand Charge
+DEMANDS,Demand and Capacity - DUOS Network Demand Charge
+DEMANDS,Demand and Capacity - TUOS Network Demand Charge
+DEMANDS,Demand Charge
+DEMANDS,Demand High Season
+DEMANDS,Demand Low Season
+DEMANDS,Demand Variable
+DEMANDS,DUoS Demand
+DEMANDS,DUOS Excess Demand
+DEMANDS,DUOS Excess kVAr Charge
+DEMANDS,DUOS Network Demand Charge
+DEMANDS,ENERGY CHARGES - Summer Demand
+DEMANDS,Energy Consumption - * Longford Peak Inject Charges
+DEMANDS,Energy Plan & Price Change - Apr Demand
+DEMANDS,Excess Demand
+DEMANDS,Excess kVAR Charges
+DEMANDS,High season Demand
+DEMANDS,Maximum Demand
+DEMANDS,Monthly Demand
+DEMANDS,Network - Demand
+DEMANDS,Network - Demand Charge
+DEMANDS,Network - DUOS - Network Demand Charge
+DEMANDS,Network - Off-Peak Demand (kVA)
+DEMANDS,Network - Peak Demand
+DEMANDS,Network - Peak Demand (kVA)
+DEMANDS,Network - Shoulder Demand
+DEMANDS,Network - Shoulder Demand (kVA)
+DEMANDS,Network - TUOS - Network Demand Charge
+DEMANDS,Network Charges - BLND3AO Demand Off Peak
+DEMANDS,Network Charges - BLND3AO Demand Peak
+DEMANDS,Network Charges - BLND3AO Demand Shoulder
+DEMANDS,Network Charges - CMGB Peak Demand
+DEMANDS,Network Charges - Demand
+DEMANDS,Network Charges - Demand Charge
+DEMANDS,Network Charges - Demand Variable
+DEMANDS,Network Charges - DUOS - Network Demand Charge
+DEMANDS,Network Charges - LVKVATOU2 Demand
+DEMANDS,Network Charges - LVKVATOU2 Summer Incentive Demand
+DEMANDS,Network Charges - Off Peak Demand Charge
+DEMANDS,Network Charges - Off-Peak Demand (kVA)
+DEMANDS,Network Charges - Other Demand
+DEMANDS,Network Charges - Peak Demand
+DEMANDS,Network Charges - Peak Demand (kVA)
+DEMANDS,Network Charges - Peak Demand Charge
+DEMANDS,Network Charges - Peak Injection Charge
+DEMANDS,Network Charges - Shoulder Demand
+DEMANDS,Network Charges - Shoulder Demand (kVA)
+DEMANDS,Network Charges - Shoulder Demand Charge
+DEMANDS,NETWORK CHARGES - Summer Demand
+DEMANDS,Network Charges - TUOS Network Demand Charge
+DEMANDS,Network Charges (LLVT1) - Demand 01-Jun-30-Jun
+DEMANDS,Network Charges (LLVT1) - Demand 31-May-31-May
+DEMANDS,Network Demand Charge
+DEMANDS,Network High Season Demand
+DEMANDS,Network Low Season Demand
+DEMANDS,Network Usage - * Use of Distribution System
+DEMANDS,Off Peak Demand Charge
+DEMANDS,Other Demand
+DEMANDS,Overrun Charge
+DEMANDS,Peak Annual Demand
+DEMANDS,Price change - Aug Demand (normalised for
+DEMANDS,Price change - Jul Demand (normalised for
+DEMANDS,Price change - Jun Demand (normalised for
+DEMANDS,Price change - May Demand
+DEMANDS,Rolling Demand
+DEMANDS,Summer Demand
+DEMANDS,Summer Incentive Demand
+DEMANDS,Transmission Charges - Peak Injection Charge
+DEMANDS,TUoS Demand
+DEMANDS,TUOS Excess Demand
+DEMANDS,TUOS Network Demand Charge
+DEMANDS,Usage and supply charges - Apr Demand (normalised for 30 days)
+DEMANDS,Usage and supply charges - Aug Demand (normalised for 31 days)
+DEMANDS,Usage and supply charges - Jul Demand (normalised for 31 days)
+DEMANDS,Usage and supply charges - Jun Demand (normalised
+DEMANDS,Usage and supply charges - Jun Demand (normalised for 30 days)
+DEMANDS,Usage and supply charges - Mar Demand
+DEMANDS,Usage and supply charges - Mar Demand (normalised for 31 days)
+DEMANDS,Usage and supply charges - May Demand
+DEMANDS,Usage and supply charges - May Demand (normalised for 31 days)
+DEMANDS,Winter Demand
+DEMANDS,Winter Demand Charge
+DISCOUNTS,* Additional Business Balance Plan 12 Discount 35%
+DISCOUNTS,* Basic Saver Business Discount on Usage 3%
+DISCOUNTS,* Everyday Saver Business Discount 39%
+DISCOUNTS,* Everyday Saver Business Discount on Usage 10%
+DISCOUNTS,*Additional Business Balance Plan 24 Discount 40%
+DISCOUNTS,22% Guaranteed discount
+DISCOUNTS,34% Guaranteed discount
+DISCOUNTS,Account Credit
+DISCOUNTS,Advantage Off Peak Disc
+DISCOUNTS,Advantage Peak Discount
+DISCOUNTS,Annual Electricity Concession
+DISCOUNTS,Base Usage Discount (12%)
+DISCOUNTS,Credits - 13% Direct Debit Discount
+DISCOUNTS,Credits - 16% Guaranteed discount
+DISCOUNTS,Credits - 17% Guaranteed Discount
+DISCOUNTS,Credits - 22% Guaranteed discount
+DISCOUNTS,Credits - 28% Guaranteed discount
+DISCOUNTS,Credits - 30% Guaranteed Discount
+DISCOUNTS,Credits - 34% Guaranteed Discount
+DISCOUNTS,Credits - 42% Guaranteed Discount
+DISCOUNTS,Credits - 47% Guaranteed Discount
+DISCOUNTS,Credits - AGL Safety Net Discount
+DISCOUNTS,Credits - QLD Govt Cost of Living Rebate
+DISCOUNTS,Credits - QLD Govt Cost of Living Rebate*
+DISCOUNTS,Credits - QLD/AUS Gvt Energy Bill Relief
+DISCOUNTS,Credits - QLD/AUS Gvt Energy Bill Relief*
+DISCOUNTS,Discount
+DISCOUNTS,Discount (2%)
+DISCOUNTS,Discount on Take or Pay eff
+DISCOUNTS,Discount on Usage
+DISCOUNTS,Discounts - * Additional Business Balance Plan 24 Discount 40%
+DISCOUNTS,Discounts and Rebates - Direct debit usage discount (1%)
+DISCOUNTS,Discounts and Rebates - Guaranteed usage discount (10%)
+DISCOUNTS,Discounts and Rebates - Guaranteed usage discount (12%)
+DISCOUNTS,Discounts and Rebates - Guaranteed usage discount (20%)
+DISCOUNTS,Discounts and Rebates - Guaranteed usage discount (26%)
+DISCOUNTS,Discounts and Rebates - Guaranteed usage discount (27%)
+DISCOUNTS,Discounts and Rebates - Guaranteed usage discount (28%)
+DISCOUNTS,Discounts and Rebates - Guaranteed usage discount (41%)
+DISCOUNTS,Early Payment Discount
+DISCOUNTS,Energy Charges - * Additional Business Balance Plan 12 Discount 35%
+DISCOUNTS,Energy Charges - * Basic Saver Business Discount on Usage 3%
+DISCOUNTS,Energy Charges - * Everyday Saver Business Discount 39%
+DISCOUNTS,Energy Charges - * Everyday Saver Business Discount on Usage 10%
+DISCOUNTS,Extra usage charge discount
+DISCOUNTS,Government Rebate
+DISCOUNTS,GreenPower credit
+DISCOUNTS,Guaranteed Discount
+DISCOUNTS,Guaranteed Off Peak Discount
+DISCOUNTS,Guaranteed Peak Discount
+DISCOUNTS,Guaranteed usage discount (12%)
+DISCOUNTS,Guaranteed usage discount (20%)
+DISCOUNTS,Guaranteed usage discount (28%)
+DISCOUNTS,Less Discounts & Rebates - Base Usage Discount (12%)
+DISCOUNTS,Meter Reading Over Read
+DISCOUNTS,Multi Premise Discount
+DISCOUNTS,New Rate Prorate - Guaranteed Discount
+DISCOUNTS,NSW Gvt Household Rebate
+DISCOUNTS,Origin Loyalty Credit
+DISCOUNTS,Origin Price Relief Credit
+DISCOUNTS,Pay-On-Time Usage Discount
+DISCOUNTS,Qld Govt Asset Owner Dividend
+DISCOUNTS,Qld Govt Electricity Rebate
+DISCOUNTS,Queensland Government Rebate
+DISCOUNTS,Rebate
+DISCOUNTS,supply discount
+DISCOUNTS,Usage Discount
+ENERGY_LINE_ITEMS,* Basic Saver - Business Peak Consumption ( 70.00000 kWh/day)^
+ENERGY_LINE_ITEMS,* Business Balance Plan 12 Peak Consumption - Block 1 ( 8.73859 MJ/day)^
+ENERGY_LINE_ITEMS,* Business Balance Plan 24 Peak Consumption - Block 1 (50.00000 MJ/day)^
+ENERGY_LINE_ITEMS,* Business Balance Plan 24 Peak Consumption - Block 2 (161.50689 MJ/day)^
+ENERGY_LINE_ITEMS,* Everyday Saver Business Peak Consumption - Block 1 ( 96.21689 MJ/day)^
+ENERGY_LINE_ITEMS,* Everyday Saver Business Peak Consumption Block 1 ( 27.39730 kWh/day) ^
+ENERGY_LINE_ITEMS,* Everyday Saver Business Peak Consumption Block 2 ( 300.78635 kWh/day)^
+ENERGY_LINE_ITEMS,* Gas Commodity Charge
+ENERGY_LINE_ITEMS,06 PREMDSL
+ENERGY_LINE_ITEMS,All Consumption
+ENERGY_LINE_ITEMS,All Consumption - Balance 21206+
+ENERGY_LINE_ITEMS,All Consumption - Balance 65031+
+ENERGY_LINE_ITEMS,All Consumption - First 0-2959
+ENERGY_LINE_ITEMS,All Consumption - First 0-9074
+ENERGY_LINE_ITEMS,All Consumption - Next 2960-21205
+ENERGY_LINE_ITEMS,All Usage
+ENERGY_LINE_ITEMS,Area Lighting Energy Charge
+ENERGY_LINE_ITEMS,Area Lighting Supply Charge
+ENERGY_LINE_ITEMS,Balance 103+
+ENERGY_LINE_ITEMS,Balance 93+
+ENERGY_LINE_ITEMS,Cathodic Rectifier Equip
+ENERGY_LINE_ITEMS,Charges - Balance 135+
+ENERGY_LINE_ITEMS,Charges - Balance 191+
+ENERGY_LINE_ITEMS,Charges - First 0-1015
+ENERGY_LINE_ITEMS,Charges - First 0-12800
+ENERGY_LINE_ITEMS,Charges - First 0-134
+ENERGY_LINE_ITEMS,Charges - First 0-17800
+ENERGY_LINE_ITEMS,Charges - First 0-190
+ENERGY_LINE_ITEMS,Charges - First 0-22000
+ENERGY_LINE_ITEMS,Charges - First 0-24000
+ENERGY_LINE_ITEMS,Charges - First 0-62000
+ENERGY_LINE_ITEMS,Charges - First 0-7562
+ENERGY_LINE_ITEMS,Charges - Next 1016-671770
+ENERGY_LINE_ITEMS,Charges - Next 178001-623000
+ENERGY_LINE_ITEMS,Charges - Next 17801-44500
+ENERGY_LINE_ITEMS,Charges - Next 44501-89000
+ENERGY_LINE_ITEMS,Charges - Next 89001-178000
+ENERGY_LINE_ITEMS,Charges - Off-Peak Usage
+ENERGY_LINE_ITEMS,Charges - Off-Peak Usage Energy Use
+ENERGY_LINE_ITEMS,Charges - Peak Usage
+ENERGY_LINE_ITEMS,Charges - Peak Usage Balance 135+
+ENERGY_LINE_ITEMS,Charges - Peak Usage Balance 191+
+ENERGY_LINE_ITEMS,Charges - Peak Usage Balance 318+
+ENERGY_LINE_ITEMS,Charges - Peak Usage Balance 5371+
+ENERGY_LINE_ITEMS,Charges - Peak Usage First 0-134
+ENERGY_LINE_ITEMS,Charges - Peak Usage First 0-190
+ENERGY_LINE_ITEMS,Charges - Peak Usage First 0-24000
+ENERGY_LINE_ITEMS,Charges - Peak Usage First 0-317
+ENERGY_LINE_ITEMS,Charges - Peak Usage First 0-5370
+ENERGY_LINE_ITEMS,Charges - Peak Usage First 0-7562
+ENERGY_LINE_ITEMS,Charges - Shoulder Usage
+ENERGY_LINE_ITEMS,Charges - Usage First 0-1015
+ENERGY_LINE_ITEMS,Charges - Usage First 0-12800
+ENERGY_LINE_ITEMS,Charges - Usage First 0-15000
+ENERGY_LINE_ITEMS,Charges - Usage First 0-911
+ENERGY_LINE_ITEMS,Charges - Usage Next 1016-671770
+ENERGY_LINE_ITEMS,Charges - Usage Next 912-603222
+ENERGY_LINE_ITEMS,Charges: - Balance 318+
+ENERGY_LINE_ITEMS,Charges: - Balance 5371+
+ENERGY_LINE_ITEMS,Charges: - Energy Use
+ENERGY_LINE_ITEMS,Charges: - First 0-317
+ENERGY_LINE_ITEMS,Charges: - First 0-5370
+ENERGY_LINE_ITEMS,Controlled Load 2
+ENERGY_LINE_ITEMS,Discounts and Rebates - First 0-911
+ENERGY_LINE_ITEMS,Discounts and Rebates - Next 912-603222
+ENERGY_LINE_ITEMS,Drinking water usage
+ENERGY_LINE_ITEMS,Drinking water usage 1 Jul 2023 - 1 Jul 2023
+ENERGY_LINE_ITEMS,Drinking water usage 2 Jun 2023 - 30 Jun 2023
+ENERGY_LINE_ITEMS,Electricity
+ENERGY_LINE_ITEMS,Electricity - Daily Supply
+ENERGY_LINE_ITEMS,Electricity - First 0-29918
+ENERGY_LINE_ITEMS,Electricity - Off-peak
+ENERGY_LINE_ITEMS,Electricity - Peak
+ENERGY_LINE_ITEMS,Electricity - Remaining
+ENERGY_LINE_ITEMS,Electricity Charges - All Consumption
+ENERGY_LINE_ITEMS,Electricity Charges - All Usage
+ENERGY_LINE_ITEMS,Electricity charges - Peak Usage
+ENERGY_LINE_ITEMS,Electricity usage
+ENERGY_LINE_ITEMS,Electricity usage 1 Jul 2025 - 29 Jul 2025
+ENERGY_LINE_ITEMS,Electricity usage 26 Jun 2025 - 30 Jun 2025
+ENERGY_LINE_ITEMS,Energy
+ENERGY_LINE_ITEMS,Energy - Off-Peak
+ENERGY_LINE_ITEMS,Energy - Offpeak 1
+ENERGY_LINE_ITEMS,Energy - Peak
+ENERGY_LINE_ITEMS,Energy - Peak 1
+ENERGY_LINE_ITEMS,Energy - Shoulder
+ENERGY_LINE_ITEMS,Energy Charge
+ENERGY_LINE_ITEMS,Energy Charges - * Basic Saver - Business Peak Consumption ( 70.00000 kWh/day)^
+ENERGY_LINE_ITEMS,Energy Charges - * Business Balance Plan 12 Peak Consumption - Block 1 ( 8.73859 MJ/day)^
+ENERGY_LINE_ITEMS,Energy charges - * Business Balance Plan 24 Peak Consumption - Block 1 (50.00000 MJ/day)^
+ENERGY_LINE_ITEMS,Energy charges - * Business Balance Plan 24 Peak Consumption - Block 2 (161.50689 MJ/day)^
+ENERGY_LINE_ITEMS,Energy Charges - * Everyday Saver Business Peak Consumption - Block 1 ( 96.21689 MJ/day)^
+ENERGY_LINE_ITEMS,Energy Charges - * Everyday Saver Business Peak Consumption Block 1 ( 27.39730 kWh/day) ^
+ENERGY_LINE_ITEMS,Energy Charges - * Everyday Saver Business Peak Consumption Block 2 ( 300.78635 kWh/day)^
+ENERGY_LINE_ITEMS,Energy Charges - Balance
+ENERGY_LINE_ITEMS,Energy Charges - Energy
+ENERGY_LINE_ITEMS,Energy Charges - Energy Charge
+ENERGY_LINE_ITEMS,Energy Charges - First
+ENERGY_LINE_ITEMS,Energy Charges - Next
+ENERGY_LINE_ITEMS,Energy Charges - Off Peak
+ENERGY_LINE_ITEMS,Energy Charges - Off Peak Energy
+ENERGY_LINE_ITEMS,ENERGY CHARGES - Off-
+ENERGY_LINE_ITEMS,ENERGY CHARGES - Off-Peak
+ENERGY_LINE_ITEMS,Energy Charges - Origin Go Zero Gas
+ENERGY_LINE_ITEMS,Energy Charges - Peak
+ENERGY_LINE_ITEMS,Energy Charges - Peak Energy
+ENERGY_LINE_ITEMS,ENERGY CHARGES - Shoulder
+ENERGY_LINE_ITEMS,Energy Charges - Shoulder Energy
+ENERGY_LINE_ITEMS,Energy Consumption - * Gas Commodity Charge
+ENERGY_LINE_ITEMS,Energy Plan & Price Change - General Usage
+ENERGY_LINE_ITEMS,Energy Plan & Price Change - General Usage next
+ENERGY_LINE_ITEMS,Energy Plan & Price Change - Off peak
+ENERGY_LINE_ITEMS,Energy Plan & Price Change - Peak
+ENERGY_LINE_ITEMS,Energy Use
+ENERGY_LINE_ITEMS,Exch Cyls forklift 15kg
+ENERGY_LINE_ITEMS,First
+ENERGY_LINE_ITEMS,First 0-102
+ENERGY_LINE_ITEMS,First 0-29918
+ENERGY_LINE_ITEMS,First 0-30247
+ENERGY_LINE_ITEMS,First 0-92
+ENERGY_LINE_ITEMS,First 10GJ MHQ
+ENERGY_LINE_ITEMS,Flexi Saver Business - * Flexi Saver - Business Peak Consumption (11.64835 kWh/day)^
+ENERGY_LINE_ITEMS,General Usage
+ENERGY_LINE_ITEMS,General Usage First 9535
+ENERGY_LINE_ITEMS,General usage next
+ENERGY_LINE_ITEMS,General Usage Remaining
+ENERGY_LINE_ITEMS,Generation Charges - Generation
+ENERGY_LINE_ITEMS,Green Power - Off Peak (All other times)
+ENERGY_LINE_ITEMS,Green Power - Peak (1pm-8pm Mon-Fri)
+ENERGY_LINE_ITEMS,"Green Power - Shoulder (7am-1pm,8pm-10pm Mon-Fri)"
+ENERGY_LINE_ITEMS,Green Power- Off Peak (All other times)
+ENERGY_LINE_ITEMS,Green Power- Peak
+ENERGY_LINE_ITEMS,Green Power- Shoulder
+ENERGY_LINE_ITEMS,LPG Propane LT
+ENERGY_LINE_ITEMS,Metered LPG
+ENERGY_LINE_ITEMS,New charges and adjustments - First 0-20
+ENERGY_LINE_ITEMS,New charges and adjustments - First 0-82
+ENERGY_LINE_ITEMS,New charges and adjustments - First 0-890
+ENERGY_LINE_ITEMS,New charges and adjustments - Next 20-2745
+ENERGY_LINE_ITEMS,New charges and adjustments - Next 82-10980
+ENERGY_LINE_ITEMS,New charges and adjustments - Next 890-118043
+ENERGY_LINE_ITEMS,New charges and adjustments - Off-peak
+ENERGY_LINE_ITEMS,New charges and adjustments - Peak
+ENERGY_LINE_ITEMS,New charges and adjustments - Remaining
+ENERGY_LINE_ITEMS,New charges and credits - CL2 Supply charge
+ENERGY_LINE_ITEMS,New charges and credits - Total charges
+ENERGY_LINE_ITEMS,New Rate Prorate - General usage
+ENERGY_LINE_ITEMS,New Rate Prorate - General usage next
+ENERGY_LINE_ITEMS,New Rate Prorate - Off peak
+ENERGY_LINE_ITEMS,New Rate Prorate - Peak
+ENERGY_LINE_ITEMS,Next
+ENERGY_LINE_ITEMS,Next 4200 - 147000
+ENERGY_LINE_ITEMS,Non-Summer Rate Prorate - Peak
+ENERGY_LINE_ITEMS,Non-Summer Rate Prorate Peak
+ENERGY_LINE_ITEMS,Off peak
+ENERGY_LINE_ITEMS,Off Peak (All other times)
+ENERGY_LINE_ITEMS,Off Peak Energy (DST)
+ENERGY_LINE_ITEMS,Off peak season - General Usage
+ENERGY_LINE_ITEMS,Off Peak Usage
+ENERGY_LINE_ITEMS,Off-Peak
+ENERGY_LINE_ITEMS,Off-Peak Usage
+ENERGY_LINE_ITEMS,OffPeak
+ENERGY_LINE_ITEMS,Old Rate Prorate - General usage
+ENERGY_LINE_ITEMS,Old Rate Prorate - General usage next
+ENERGY_LINE_ITEMS,Old Rate Prorate - Off peak
+ENERGY_LINE_ITEMS,Old Rate Prorate - Peak
+ENERGY_LINE_ITEMS,Origin Go Zero Gas
+ENERGY_LINE_ITEMS,Other Charges & Adjustments - Balance 135617+
+ENERGY_LINE_ITEMS,Other Charges & Adjustments - Balance 388768+
+ENERGY_LINE_ITEMS,Other Charges & Adjustments - First 0-24658
+ENERGY_LINE_ITEMS,Other Charges & Adjustments - First 0-70685
+ENERGY_LINE_ITEMS,Other Charges & Adjustments - Next 24659-135616
+ENERGY_LINE_ITEMS,Other Charges & Adjustments - Next 70686-388767
+ENERGY_LINE_ITEMS,Payment Due Details - CMUX
+ENERGY_LINE_ITEMS,Payment Due Details - CMUX+TH
+ENERGY_LINE_ITEMS,Payment Due Details - MAINTENANCE POWER OUTLET
+ENERGY_LINE_ITEMS,Payment Due Details - REMOTE CUST MULTIPLEXER
+ENERGY_LINE_ITEMS,Payment Due Details - RIM Plus
+ENERGY_LINE_ITEMS,Payment Due Details - SCAD COMMUNICATION EQUIP
+ENERGY_LINE_ITEMS,Payment Due Details - TELE CABINET LIGHT
+ENERGY_LINE_ITEMS,Payments - Metered LPG
+ENERGY_LINE_ITEMS,Payments and Adjustments - Metered LPG
+ENERGY_LINE_ITEMS,Peak
+ENERGY_LINE_ITEMS,Peak (1 x Hfc (Cable Tv) - Optus)
+ENERGY_LINE_ITEMS,Peak Energy (DST)
+ENERGY_LINE_ITEMS,Peak season - General Usage
+ENERGY_LINE_ITEMS,Peak season - Supply charge
+ENERGY_LINE_ITEMS,Peak Usage
+ENERGY_LINE_ITEMS,Price change - Controlled Load 2
+ENERGY_LINE_ITEMS,Price change - General Usage
+ENERGY_LINE_ITEMS,Price change - General usage next
+ENERGY_LINE_ITEMS,Remaining
+ENERGY_LINE_ITEMS,Retail Charges - NSW Off Peak
+ENERGY_LINE_ITEMS,Retail Charges - NSW Peak
+ENERGY_LINE_ITEMS,Retail Charges - NSW Shoulder
+ENERGY_LINE_ITEMS,Retail Charges - VIC Off Peak
+ENERGY_LINE_ITEMS,Retail Charges - VIC Peak
+ENERGY_LINE_ITEMS,Shoulder
+ENERGY_LINE_ITEMS,Shoulder Energy
+ENERGY_LINE_ITEMS,Shoulder Usage
+ENERGY_LINE_ITEMS,Solar generation
+ENERGY_LINE_ITEMS,Summer Rate Prorate - Peak
+ENERGY_LINE_ITEMS,Summer Rate Prorate Peak
+ENERGY_LINE_ITEMS,Total Consumption
+ENERGY_LINE_ITEMS,Unchanged rate - Off peak
+ENERGY_LINE_ITEMS,Unchanged rate - Peak
+ENERGY_LINE_ITEMS,Unchanged rate - Supply charge
+ENERGY_LINE_ITEMS,Usage - First 0-17800
+ENERGY_LINE_ITEMS,Usage - Next 178001-623000
+ENERGY_LINE_ITEMS,Usage - Next 17801-44500
+ENERGY_LINE_ITEMS,Usage - Next 44501-89000
+ENERGY_LINE_ITEMS,Usage - Next 89001-178000
+ENERGY_LINE_ITEMS,Usage & supply charges - General usage
+ENERGY_LINE_ITEMS,Usage & supply charges - General usage next
+ENERGY_LINE_ITEMS,Usage and supply - Off-peak
+ENERGY_LINE_ITEMS,Usage and supply charges - Controlled Load 2
+ENERGY_LINE_ITEMS,Usage and supply charges - General Usage
+ENERGY_LINE_ITEMS,Usage and supply charges - General usage next
+ENERGY_LINE_ITEMS,Usage and supply charges - Off peak
+ENERGY_LINE_ITEMS,Usage and supply charges - Peak
+ENERGY_LINE_ITEMS,Usage and supply charges - Shoulder
+ENERGY_LINE_ITEMS,Your new charges - Hot Water Usage
+ENERGY_LINE_ITEMS,Your new charges - Off-Peak Usage
+ENERGY_LINE_ITEMS,Your new charges - Peak Usage
+ENERGY_OTHER,1 X Unmetered-WL Sodium 400W
+ENERGY_OTHER,Additional Gas
+ENERGY_OTHER,Adjustment
+ENERGY_OTHER,Aggregate Gas Overrun
+ENERGY_OTHER,Cable TV
+ENERGY_OTHER,Charges - Telstra Cabinet 1 x 20W Fluore
+ENERGY_OTHER,Daily Supply Charge
+ENERGY_OTHER,Electrical for motor / prop testing room
+ENERGY_OTHER,Energy Charges - Unaccounted for Energy
+ENERGY_OTHER,Energy Charges Adjustments
+ENERGY_OTHER,Epson LCD Business Projector
+ENERGY_OTHER,Excess Energy Concession
+ENERGY_OTHER,Flow Monitor charge
+ENERGY_OTHER,General Excess Debit Adjustment
+ENERGY_OTHER,Generation Contribution
+ENERGY_OTHER,Ice warning lamps
+ENERGY_OTHER,MA Hg
+ENERGY_OTHER,MB Hg
+ENERGY_OTHER,Mesh Task Chair
+ENERGY_OTHER,MH Hg
+ENERGY_OTHER,Micronode
+ENERGY_OTHER,Minimum charge
+ENERGY_OTHER,NBN Cabinet
+ENERGY_OTHER,NBN FTTN Cabinet
+ENERGY_OTHER,New Charges - 20W Fluore
+ENERGY_OTHER,New Rate Prorate - 1 X Unmetered-WL Sodium 400W
+ENERGY_OTHER,New Rate Prorate - 1 X WL Hg 250W
+ENERGY_OTHER,Noise Monitoring Stn
+ENERGY_OTHER,Old Rate Prorate - 1 X Unmetered-WL Sodium 400W
+ENERGY_OTHER,Old Rate Prorate - 1 X WL Hg 250W
+ENERGY_OTHER,Origin Go Zero
+ENERGY_OTHER,Overrun
+ENERGY_OTHER,PureEnergy
+ENERGY_OTHER,Rim Cab
+ENERGY_OTHER,RimCab
+ENERGY_OTHER,SA Na
+ENERGY_OTHER,Security Camera
+ENERGY_OTHER,SH Na
+ENERGY_OTHER,SL Sentry
+ENERGY_OTHER,SPL Fling MH
+ENERGY_OTHER,Sprinkler System
+ENERGY_OTHER,Sprinkler System charge
+ENERGY_OTHER,Sprinkler Systemcharge
+ENERGY_OTHER,STCs owing to EA (H2-2018)
+ENERGY_OTHER,Telemetry Stn
+ENERGY_OTHER,Telstra Cabinet
+ENERGY_OTHER,Telstra Cabinet 1 X 20W Fluore
+ENERGY_OTHER,Telstra Remote Customer
+ENERGY_OTHER,TelstraCabinet
+ENERGY_OTHER,Traf Ctl SigNal
+ENERGY_OTHER,UMS
+ENERGY_OTHER,UMS Cathodic Protection
+ENERGY_OTHER,UMS Flow
+ENERGY_OTHER,UMS Flow Monitor
+ENERGY_OTHER,UMS Miscellaneous
+ENERGY_OTHER,UMS Miscellaneous Charge 01
+ENERGY_OTHER,UMS Miscellaneous Charge 02
+ENERGY_OTHER,UMS Telemetry Station
+ENERGY_OTHER,Unaccounted for Energy
+ENERGY_OTHER,Unmetered WL - Mercury
+ENERGY_OTHER,Unmetered- WL Sodium 400W
+ENERGY_OTHER,Unmetered-WL Sodium
+ENERGY_OTHER,Usage and supply charges - 1 X WL Hg 250W
+ENERGY_OTHER,Usage and supply charges - UMS Cathodic Protection
+ENERGY_OTHER,Usage and supply charges - UMS Telemetry Station
+ENERGY_OTHER,USB iPhone stand
+ENERGY_OTHER,Watchman light charge
+ENERGY_OTHER,Watchman Lights
+ENERGY_OTHER,Winter Energy Concession
+ENERGY_OTHER,WL Hg
+ENERGY_OTHER,WL Na
+ENERGY_SERVICE,* Basic Saver Business Supply Charge
+ENERGY_SERVICE,* Business Balance Plan 12 Supply Charge
+ENERGY_SERVICE,* Business Balance Plan 24 Supply Charge
+ENERGY_SERVICE,* Everyday Saver - Business Supply Charge
+ENERGY_SERVICE,* Everyday Saver Business Supply Charge
+ENERGY_SERVICE,Abolishment of Supply
+ENERGY_SERVICE,ACS Major
+ENERGY_SERVICE,ACS Minor
+ENERGY_SERVICE,Additional Charges - Supply Charge
+ENERGY_SERVICE,All Consumption - Service to Property
+ENERGY_SERVICE,Base Charge
+ENERGY_SERVICE,Charges - Supply Charge
+ENERGY_SERVICE,Charges: - Supply Charge
+ENERGY_SERVICE,CL2 Supply charge
+ENERGY_SERVICE,Daily Supply
+ENERGY_SERVICE,Daily Supply Charge
+ENERGY_SERVICE,Discounts and Rebates - Supply Charge
+ENERGY_SERVICE,Drinking water service charge
+ENERGY_SERVICE,Drinking water service charge (20mm)
+ENERGY_SERVICE,Drinking water service charge 1 Jul 2023 - 1 Jul 2023
+ENERGY_SERVICE,Drinking water service charge 2 Jun 2023 - 30 Jun 2023
+ENERGY_SERVICE,Electricity Charges - Service
+ENERGY_SERVICE,Electricity Charges - Service Fee
+ENERGY_SERVICE,Electricity supply charge
+ENERGY_SERVICE,Energy accounting services
+ENERGY_SERVICE,Energy Charges - * Basic Saver Business Supply Charge
+ENERGY_SERVICE,Energy Charges - * Business Balance Plan 12 Supply Charge
+ENERGY_SERVICE,Energy charges - * Business Balance Plan 24 Supply Charge
+ENERGY_SERVICE,Energy Charges - * Everyday Saver - Business Supply Charge
+ENERGY_SERVICE,Energy Charges - * Everyday Saver Business Supply Charge
+ENERGY_SERVICE,Energy Charges - Monthly Fixed Charge
+ENERGY_SERVICE,Energy Charges - Supply Charge
+ENERGY_SERVICE,Energy Plan & Price Change - Supply charge
+ENERGY_SERVICE,EnergyLink Charge
+ENERGY_SERVICE,fixed charge
+ENERGY_SERVICE,Fixed Monthly Charge
+ENERGY_SERVICE,Fixed Transport Charge
+ENERGY_SERVICE,Flexi Saver Business - * Flexi Saver - Business Supply Charge
+ENERGY_SERVICE,Inclining Fixed Charge
+ENERGY_SERVICE,Maintenance
+ENERGY_SERVICE,Metered Supply Charge
+ENERGY_SERVICE,Metering and Other Charges - Retail Supply Charge
+ENERGY_SERVICE,Minimum Payment
+ENERGY_SERVICE,Monthly Fixed Charge
+ENERGY_SERVICE,Monthly non-interval
+ENERGY_SERVICE,Network Usage - * Operations and Maintenance
+ENERGY_SERVICE,New Charges - Rim Cab 480
+ENERGY_SERVICE,New charges and adjustments - Daily Supply
+ENERGY_SERVICE,New Rate Prorate - Supply charge
+ENERGY_SERVICE,Non-Summer Rate Prorate - Supply Charge
+ENERGY_SERVICE,Old Rate Prorate - Supply charge
+ENERGY_SERVICE,Other Charges - Retail Service Fee
+ENERGY_SERVICE,Other charges - Retail ServiceFee
+ENERGY_SERVICE,Other Charges & Adjustments - Supply Charge
+ENERGY_SERVICE,Payments - Metered Supply Charge
+ENERGY_SERVICE,Payments and Adjustments - Metered Supply Charge
+ENERGY_SERVICE,Price change - Supply charge
+ENERGY_SERVICE,Retail Service - EnergyLink Charge
+ENERGY_SERVICE,Retail Service - Service Charge
+ENERGY_SERVICE,Retail Service Charges - EnergyLink Charge
+ENERGY_SERVICE,Retail Service Charges - Service Charge
+ENERGY_SERVICE,Retail Service Fee
+ENERGY_SERVICE,Retail Supply Charge
+ENERGY_SERVICE,Service
+ENERGY_SERVICE,Service Charge
+ENERGY_SERVICE,Service fee
+ENERGY_SERVICE,Service fee 1 Jul 2025 - 29 Jul 2025
+ENERGY_SERVICE,Service fee 26 Jun 2025 - 30 Jun 2025
+ENERGY_SERVICE,Service to Property
+ENERGY_SERVICE,Summer Rate Prorate - Supply Charge
+ENERGY_SERVICE,Supply Charge
+ENERGY_SERVICE,Supply charge band
+ENERGY_SERVICE,Unchanged rate - Energy accounting services
+ENERGY_SERVICE,Unchanged Rate - Supply charge
+ENERGY_SERVICE,Unmetered Services
+ENERGY_SERVICE,Usage & supply charges - Supply charge
+ENERGY_SERVICE,Usage and supply - Daily Supply
+ENERGY_SERVICE,Usage and supply charges - CL2 Supply charge
+ENERGY_SERVICE,Usage and supply charges - Daily Supply
+ENERGY_SERVICE,Usage and supply charges - Supply charge
+ENERGY_SERVICE,Your new charges - Supply Charge
+ENERGY_SOLAR,AnyTime Solar
+ENERGY_SOLAR,CoGen
+ENERGY_SOLAR,Demand Response
+ENERGY_SOLAR,Electricity Charges - Solar Export
+ENERGY_SOLAR,ENERGY EXPORTED
+ENERGY_SOLAR,Energy Exported - Export Electricity Charge
+ENERGY_SOLAR,Export Electricity Charge
+ENERGY_SOLAR,Export Electricity Charge**
+ENERGY_SOLAR,Feed in tariff
+ENERGY_SOLAR,Feed-in Credit
+ENERGY_SOLAR,Feed-in Tariff
+ENERGY_SOLAR,Feed-in Top
+ENERGY_SOLAR,FIT Voluntary
+ENERGY_SOLAR,Generation Buyback
+ENERGY_SOLAR,Network Charges (RTOU) - Solar Sponge Usage
+ENERGY_SOLAR,New charges and adjustments - Feed-in Credit
+ENERGY_SOLAR,Off Peak Business Feed-in Credit
+ENERGY_SOLAR,Off Peak Buy back
+ENERGY_SOLAR,Oregon Solar Investment
+ENERGY_SOLAR,Peak Buy back
+ENERGY_SOLAR,Photovoltaic NRES Partial FIT energy
+ENERGY_SOLAR,Premium Solar Feed In Tariff
+ENERGY_SOLAR,RCTI Adjustments
+ENERGY_SOLAR,RCTI TRANSACTIONS
+ENERGY_SOLAR,Retailer Solar Buy Back Rate
+ENERGY_SOLAR,Shoulder Buy back
+ENERGY_SOLAR,Solar Bonus Import
+ENERGY_SOLAR,Solar Bonus Scheme
+ENERGY_SOLAR,Solar Consumed
+ENERGY_SOLAR,Solar Consumption
+ENERGY_SOLAR,solar contribution
+ENERGY_SOLAR,Solar Credit
+ENERGY_SOLAR,Solar credits - Feed-in Credit
+ENERGY_SOLAR,Solar equirements Charge
+ENERGY_SOLAR,Solar Export
+ENERGY_SOLAR,Solar export - Standard feed-in tariff
+ENERGY_SOLAR,Solar Exports
+ENERGY_SOLAR,Solar Exports - Solar Bonus Scheme
+ENERGY_SOLAR,Solar exports - Solar feed-in credit
+ENERGY_SOLAR,Solar Exports - Solar feed-in for Regional Queensland
+ENERGY_SOLAR,Solar feed in rate
+ENERGY_SOLAR,Solar Feed In Scheme
+ENERGY_SOLAR,Solar Feed In Tariff
+ENERGY_SOLAR,Solar Feed-in
+ENERGY_SOLAR,Solar Feed-in-Tariff
+ENERGY_SOLAR,Solar FIT
+ENERGY_SOLAR,Solar Import Tariff
+ENERGY_SOLAR,Solar Meter Charge
+ENERGY_SOLAR,Solar Rebate
+ENERGY_SOLAR,Solar Requirements Charge
+ENERGY_SOLAR,Solar Retailer Contribution
+ENERGY_SOLAR,Solar Scheme
+ENERGY_SOLAR,Solar Standard FeedIn Tariff**
+ENERGY_SOLAR,Solar Usage
+ENERGY_SOLAR,SolarRequirementsCharge
+ENERGY_SOLAR,Standard Feed-in Tariff
+ENERGY_SOLAR,Through Charge Export from Site
+ENERGY_SOLAR,VIC Feed-In Tariff
+ENERGY_SOLAR,Your total solar contribution
+ENERGY_SOLAR,Zero Rate Solar Co Gen
+EXTRA_CHARGES,2023 Qld Energy Rebate Small Business
+EXTRA_CHARGES,Abolishment Fee
+EXTRA_CHARGES,Account Charge
+EXTRA_CHARGES,Additional Charges and Credits - Interest Charges **
+EXTRA_CHARGES,applied network adjustment due to
+EXTRA_CHARGES,Benefit Not Received
+EXTRA_CHARGES,Card fee adjust
+EXTRA_CHARGES,Card Payment Fee
+EXTRA_CHARGES,Consumption Charge Adjustment
+EXTRA_CHARGES,Cylinder Storage Correction
+EXTRA_CHARGES,Device Installation Fee
+EXTRA_CHARGES,Disconnection for Debt Fee
+EXTRA_CHARGES,Distribution Network Service Provider - Network Charge Reconciliation July 24 to September 24
+EXTRA_CHARGES,Goodwill Credit
+EXTRA_CHARGES,GSL Rebate
+EXTRA_CHARGES,Incorrect Network Charge due to
+EXTRA_CHARGES,Interest Charges**
+EXTRA_CHARGES,ISU Excluded Services
+EXTRA_CHARGES,Late payment fee
+EXTRA_CHARGES,Late Payment Interest Charge
+EXTRA_CHARGES,Manual Debt Migration
+EXTRA_CHARGES,Meter Installation Fee
+EXTRA_CHARGES,Meter Investigation/Test Fee
+EXTRA_CHARGES,Meter Removal Fee
+EXTRA_CHARGES,Meter works administration fee
+EXTRA_CHARGES,Meter/Device Alteration Fee
+EXTRA_CHARGES,Meter/Device Removal Fee
+EXTRA_CHARGES,Metering charges
+EXTRA_CHARGES,Metering Charges - Adjustment to previous period 01 Jan 2022 to 31 Jan 2022
+EXTRA_CHARGES,Metering Charges - Late Payment Interest Charge
+EXTRA_CHARGES,Miscellaneous
+EXTRA_CHARGES,Move Out Fee
+EXTRA_CHARGES,Network Charge Reconciliation July 24 to September 24
+EXTRA_CHARGES,Network Passthrough
+EXTRA_CHARGES,NSW Family Energy Rebate
+EXTRA_CHARGES,On Account
+EXTRA_CHARGES,On Account(No GST)
+EXTRA_CHARGES,"On Account(non-taxable,no GST)"
+EXTRA_CHARGES,Other charges - Late Payment Fee - DR
+EXTRA_CHARGES,Other charges - Late Payment Fee - DR*
+EXTRA_CHARGES,Other Charges & Adjustments - Late Payment Fee (No GST)
+EXTRA_CHARGES,Other Charges & Adjustments - Move Out Fee
+EXTRA_CHARGES,Other charges/adjustments - 2023 Qld Energy Rebate Small Business
+EXTRA_CHARGES,Other charges/adjustments - 2025 Commonwealth Energy Rebate Agency Small Business
+EXTRA_CHARGES,Other charges/adjustments - 2025 QLD COLR - Agency Small Business
+EXTRA_CHARGES,Out of Code Adjustment
+EXTRA_CHARGES,Paper Bill Fee
+EXTRA_CHARGES,Pay On Time Usage Discount
+EXTRA_CHARGES,Reconnection Fee
+EXTRA_CHARGES,"Reversal(non-taxable,no GST)"
+EXTRA_CHARGES,Rounding Adjustment
+EXTRA_CHARGES,Service Order Fee Reversal
+EXTRA_CHARGES,Special Meter Read Fee
+EXTRA_CHARGES,Write Off
+EXTRA_CHARGES,Write-Off
+EXTRA_CHARGES,Wrongful disconnection
+GREEN,100% Green Power
+GREEN,100% Green Product
+GREEN,100% GreenPower
+GREEN,100%GreenPower
+GREEN,20% Green Power
+GREEN,20% Green Product
+GREEN,6% GreenPower
+GREEN,AGL Green Energy
+GREEN,Diamond Pure Plus
+GREEN,EL GREEN ENERGY CHARGE
+GREEN,Going Green
+GREEN,Green
+GREEN,Green Electricity Tariff
+GREEN,Green Energy
+GREEN,Green Energy Charge
+GREEN,Green Gas
+GREEN,Green Gas Levy
+GREEN,Green Living
+GREEN,Green Power
+GREEN,Green Power Charge
+GREEN,Green Product
+GREEN,Greenergy Partner Plus
+GREEN,GreenPower
+GREEN,GreenPower Charge
+GREEN,GreenPower Charges
+GREEN,GreenPower Charges - 100% Green Product
+GREEN,GreenPower Charges - 100% GreenPower
+GREEN,GreenPower Charges - 20% Green Product
+GREEN,GreenPower Charges - 6% GreenPower
+GREEN,GreenPower Charges - Going Green
+GREEN,GreenPower Charges - Green Energy
+GREEN,GreenPower Charges - Green Gas
+GREEN,GreenPower Charges - Green Power Charge
+GREEN,Greensense
+GREEN,Greensense Level
+GREEN,Greensense Level 1
+GREEN,Greensense View Subscription
+GREEN,HVAC LoadFlex Project Fee
+GREEN,Next GreenPower
+GREEN,Pure Energy Choice
+GREEN,Regulated Charges - GST
+GREEN,Renewable Energy - 100% Green Product
+GREEN,Renewable Energy - 100% GreenPower
+GREEN,Renewable Energy - 20% Green Product
+GREEN,Renewable Energy - 6% GreenPower
+GREEN,Renewable Energy - Going Green
+GREEN,Renewable Energy - Green Energy
+GREEN,Renewable Energy - Green Gas
+GREEN,Renewable Energy - Green Power
+GREEN,Renewable Energy - Green Power Charge
+GREEN,Reverse - 20% Green Power
+GREEN,Temp.GreenPowerFinancing
+GREEN,Total greenhouse gas emissions
+MARKET,* AEMO Commodity Charge
+MARKET,AEMO
+MARKET,AEMO Additional Ancillary Service
+MARKET,AEMO Ancillary Charge
+MARKET,AEMO Ancillary Fee
+MARKET,AEMO Ancillary Fee & UFE
+MARKET,AEMO Charge
+MARKET,AEMO Charge - Energy Direction Compensation
+MARKET,AEMO Charge - Energy Direction Compensation Recovery
+MARKET,AEMO Commodity Charge
+MARKET,AEMO Distribution Meter
+MARKET,AEMO FRC Charge
+MARKET,AEMO FRC Charges
+MARKET,AEMO FRC Operations
+MARKET,AEMO Market Fee
+MARKET,AEMO Market Fees
+MARKET,AEMO Meter Data Management
+MARKET,AEMO Participant Charge
+MARKET,AEMO Pool Fees
+MARKET,AEMO RERT Charge
+MARKET,AEMO RERT Usage Costs
+MARKET,AEMO VIC DWGM Energy
+MARKET,Ancillary Services
+MARKET,Ancillary Services 01-Jun-30-Jun
+MARKET,Ancillary Services 31-May-31-May
+MARKET,Ancillary Services Charge
+MARKET,Energy Consumption - * AEMO Commodity Charge
+MARKET,FRC & Participant Charge Fixed
+MARKET,FRC amp; Participant Charge Fixed
+MARKET,FRC Charge
+MARKET,FRC Operations
+MARKET,IRCR
+MARKET,Market Charges - AEMO Distribution Meter
+MARKET,Market Charges - AEMO Market Fees
+MARKET,Market Charges - AEMO VIC DWGM Energy
+MARKET,Market Charges - Ancillary Services
+MARKET,Market Charges - Ancillary Services 01-Jun-30-Jun
+MARKET,Market Charges - Ancillary Services 31-May-31-May
+MARKET,Market Charges - FRC & Participant Charge Fixed
+MARKET,Market Charges - FRC Operations
+MARKET,Market Charges - Participant Charge
+MARKET,Market Charges - Participant Charge Variable
+MARKET,Market Charges Adjustments
+MARKET,Market Fee
+MARKET,Market Operator Charges - AEMO Ancillary Fee
+MARKET,Market Operator Charges - AEMO Ancillary Fee & UFE
+MARKET,Market Operator Charges - AEMO Market Fee
+MARKET,Market Participant Charge
+MARKET,Other - AEMO Ancillary
+MARKET,Other - AEMO Charge
+MARKET,Other charges - AEMO Ancillary Charge
+MARKET,Other Charges - AEMO Pool Fees
+MARKET,Other charges - AEMO Pool Fees/kWh
+MARKET,Participant Charge
+MARKET,Participant Charge Variable
+MARKET,Regulated - AEMO Ancillary Charge
+MARKET,Regulated - AEMO FRC Operations
+MARKET,Regulated - AEMO Participant Charge
+MARKET,Regulated Charges - AEMO
+MARKET,Regulated Charges - AEMO Ancillary Charge
+MARKET,Regulated Charges - AEMO Distribution Meter Fee
+MARKET,Regulated Charges - AEMO FRC Charge
+MARKET,Regulated Charges - AEMO FRC Operations
+MARKET,Regulated Charges - AEMO Participant
+MARKET,Regulated Charges - AEMO Participant Charge
+MARKET,Regulated Charges - AEMO Tariff D Fee
+MARKET,Renewable Energy Charges - AEMO Ancillary Charge
+MARKET,Renewable Energy Charges - AEMO Pool Fees
+MARKET,VENCorp FRC Charges
+METERING,* Meter Data Handling Fee
+METERING,Capital Meter Component
+METERING,Capital Metering
+METERING,Capital Metering Charge
+METERING,Charge for meter
+METERING,Charges - DMA Bundled Metering Charges
+METERING,Citipower Complex Alteration
+METERING,CL33 Capital Metering Charge
+METERING,CL33 NCapital Metering Charge
+METERING,DMA Bundled Metering Charges
+METERING,Energy Consumption - * Meter Data Handling Fee
+METERING,Failed Special Read Fee
+METERING,Fixed Metering Charge
+METERING,Interval Metering Charge
+METERING,Meter Charge
+METERING,Meter Fee
+METERING,Meter Read Fee
+METERING,Meter Reading Charge
+METERING,Meter Reading Fee
+METERING,Meter reconfiguration fee
+METERING,Meter Reconfiguration for Solar Service
+METERING,Metering - Metering Charge
+METERING,Metering - Supplementary Metering Charge
+METERING,Metering - Value Added Service Charge
+METERING,Metering and Other Charges - Meter Charge
+METERING,Metering and Service Charges - Metering Charge
+METERING,Metering and Service Charges - Supplementary Metering Charge
+METERING,Metering and Service Charges - Value Added Service Charge
+METERING,Metering and Services - Metering Charge
+METERING,Metering and Services - Supplementary Metering Charge
+METERING,Metering and Services - Value Added Service Charge
+METERING,Metering and Services Charges - Metering Charge
+METERING,Metering and Services Charges - Supplementary Metering Charge
+METERING,Metering and Services Charges - Value Added Service Charge
+METERING,Metering Capital Charge
+METERING,Metering Charge
+METERING,Metering Charges - Meter Charge
+METERING,Metering data Services
+METERING,Metering Non Capital Charge
+METERING,Metrer Charge
+METERING,Monthly Meter Read Fee
+METERING,NCapital Metering
+METERING,Network Charges - Citipower Metering Charges
+METERING,Network Charges - Meter Charges
+METERING,Network Charges - Meter Service Charge
+METERING,Network Charges - Network Metering Charge
+METERING,Network Charges (RTOU) - Metering Charge Capital
+METERING,Network Disconnection Fee
+METERING,Network S/O fee for
+METERING,Other charges - Meter read fee (move in)
+METERING,Other charges - Meter read fee (move in) (2023-07-03)
+METERING,Other charges - Meter read fee (special read)
+METERING,Other charges - Meter read fee (special read) (2023-05-10)
+METERING,Other Charges - Metering Charges
+METERING,Other charges - Metrer Charge
+METERING,Remote Meter Reconfiguration
+METERING,Renewable Energy Charges - Metering Charges
+METERING,Service Vehicle Visit
+METERING,Solar Capital Metering
+METERING,Solar Meter Configuration
+METERING,Solar Meter Reconfiguration
+METERING,Solar metering
+METERING,Solar metering Service Charge
+METERING,Solar NCapital Metering
+METERING,Supplementary Metering Charge
+METERING,Trouble Order Fee by Network
+METERING,Yurika Fee- Additions and Alterations
+METERING,Yurika Fee- Additions and Alterations to
+METERING,Yurika Fee- Afterhours Meter Installation Fee
+METERING,Yurika Fee- Antenna Upgrade to Whip
+METERING,Yurika Fee- MDP Installation
+METERING,Yurika Fee- Regional NMI Surcharge
+METERING,Yurika Fee- Rural
+NETWORK_LINE_ITEMS,* Longford Transmission Delivery Tariff
+NETWORK_LINE_ITEMS,Demand and Capacity - DUOS - Network Volume Charge
+NETWORK_LINE_ITEMS,Demand and Capacity - Off Peak
+NETWORK_LINE_ITEMS,Demand and Capacity - Peak
+NETWORK_LINE_ITEMS,Demand and Capacity - TUOS Network Volume Charge
+NETWORK_LINE_ITEMS,Distribution Charges - Anytime Volume Charge
+NETWORK_LINE_ITEMS,Distribution Charges - Balance
+NETWORK_LINE_ITEMS,Distribution Charges - Controlled Load
+NETWORK_LINE_ITEMS,Distribution Charges - Energy
+NETWORK_LINE_ITEMS,Distribution Charges - First
+NETWORK_LINE_ITEMS,Distribution Charges - First 10GJ MHQ
+NETWORK_LINE_ITEMS,Distribution Charges - Next
+NETWORK_LINE_ITEMS,Distribution Charges - Next 40GJ MHQ
+NETWORK_LINE_ITEMS,Distribution Charges - Peak MHQ
+NETWORK_LINE_ITEMS,Distribution Charges - PureEnergy
+NETWORK_LINE_ITEMS,Distribution Charges - Rolling MHQ
+NETWORK_LINE_ITEMS,Distribution Charges - Volume Charge
+NETWORK_LINE_ITEMS,DUOS - Network Volume Charge
+NETWORK_LINE_ITEMS,DUOS Volume
+NETWORK_LINE_ITEMS,ENERGY CHARGES - Network
+NETWORK_LINE_ITEMS,ENERGY CHARGES - Network Off Peak
+NETWORK_LINE_ITEMS,ENERGY CHARGES - Network Peak
+NETWORK_LINE_ITEMS,ENERGY CHARGES - NetworkPeak
+NETWORK_LINE_ITEMS,Energy Consumption - * Longford Transmission Delivery Tariff
+NETWORK_LINE_ITEMS,Environmental Charges - Off Peak Energy (DST)
+NETWORK_LINE_ITEMS,Environmental Charges - Peak Energy (DST)
+NETWORK_LINE_ITEMS,Environmental Charges - Shoulder Energy (DST)
+NETWORK_LINE_ITEMS,Network - DUOS - Network Volume Charge
+NETWORK_LINE_ITEMS,Network - Low Peak
+NETWORK_LINE_ITEMS,Network - Off Peak
+NETWORK_LINE_ITEMS,Network - Off-Peak
+NETWORK_LINE_ITEMS,Network - Peak
+NETWORK_LINE_ITEMS,Network - Shoulder
+NETWORK_LINE_ITEMS,Network - TUOS - Network Volume Charge
+NETWORK_LINE_ITEMS,Network Charges - BLND3AO Off Peak
+NETWORK_LINE_ITEMS,Network Charges - BLND3AO Peak
+NETWORK_LINE_ITEMS,Network Charges - BLND3AO Shoulder
+NETWORK_LINE_ITEMS,Network Charges - CMGB Off Peak Usage
+NETWORK_LINE_ITEMS,Network Charges - CMGB Peak Usage
+NETWORK_LINE_ITEMS,Network Charges - DUOS - Network Volume Charge
+NETWORK_LINE_ITEMS,Network Charges - Low Peak
+NETWORK_LINE_ITEMS,Network Charges - LVKVATOU2 Off Peak Energy
+NETWORK_LINE_ITEMS,Network Charges - LVKVATOU2 Peak Energy
+NETWORK_LINE_ITEMS,Network Charges - Network Off Peak
+NETWORK_LINE_ITEMS,Network Charges - Network Peak
+NETWORK_LINE_ITEMS,Network Charges - Network Shoulder
+NETWORK_LINE_ITEMS,NETWORK CHARGES - NetworkPeak
+NETWORK_LINE_ITEMS,Network Charges - Off Peak
+NETWORK_LINE_ITEMS,Network Charges - Off-Peak
+NETWORK_LINE_ITEMS,Network Charges - Peak
+NETWORK_LINE_ITEMS,Network Charges - Shoulder
+NETWORK_LINE_ITEMS,Network Charges - TUOS Network Volume Charge
+NETWORK_LINE_ITEMS,Network Charges - Withdrawal Charge Tariff D
+NETWORK_LINE_ITEMS,Network Charges (LLVT1) - Off Peak Energy
+NETWORK_LINE_ITEMS,Network Charges (LLVT1) - Peak Energy
+NETWORK_LINE_ITEMS,Network Charges (RTOU) - Off Peak Usage
+NETWORK_LINE_ITEMS,Network Charges (RTOU) - Peak Usage
+NETWORK_LINE_ITEMS,Transmission Charges - Anytime Volume Charge
+NETWORK_LINE_ITEMS,Transmission Charges - Balance
+NETWORK_LINE_ITEMS,Transmission Charges - Controlled Load
+NETWORK_LINE_ITEMS,Transmission Charges - Energy
+NETWORK_LINE_ITEMS,Transmission Charges - Energy Usage
+NETWORK_LINE_ITEMS,Transmission Charges - First
+NETWORK_LINE_ITEMS,Transmission Charges - Next
+NETWORK_LINE_ITEMS,Transmission Charges - Peak MHQ
+NETWORK_LINE_ITEMS,Transmission Charges - PureEnergy
+NETWORK_LINE_ITEMS,Transmission Charges - Volume Charge
+NETWORK_LINE_ITEMS,Transportation Charge
+NETWORK_LINE_ITEMS,TUOS Network Volume Charge
+NETWORK_LINE_ITEMS,TUOS Volume
+NETWORK_LINE_ITEMS,Variable Transport Charge
+NETWORK_LINE_ITEMS,Volume Throughput - Balance
+NETWORK_LINE_ITEMS,Volume Throughput - First
+NETWORK_LINE_ITEMS,Volume Throughput - Next
+NETWORK_OTHER,3 PH 800 CT Mtr T Type
+NETWORK_OTHER,ACS Metering Non-Cap Charge
+NETWORK_OTHER,ACS MSC Capital Only
+NETWORK_OTHER,Call out fee - BUS HRS - 1 crew Urban
+NETWORK_OTHER,Call out fee - BUS HRS - 2 crews
+NETWORK_OTHER,Common Services Charge
+NETWORK_OTHER,CT Mtr S Type
+NETWORK_OTHER,Custmr supply enhncmnt BH-MP CT
+NETWORK_OTHER,De-En Pillar-Box Pit Or Pole-Top
+NETWORK_OTHER,De-energisation during business hours
+NETWORK_OTHER,Discon for non payment (BH only)
+NETWORK_OTHER,Disconnect at Pillar-Box
+NETWORK_OTHER,Distribution System Charge
+NETWORK_OTHER,Embedded Generation
+NETWORK_OTHER,Fld Visit: Visit by a Field Officer
+NETWORK_OTHER,Fuse Insertion - business hours
+NETWORK_OTHER,Fuse Removal
+NETWORK_OTHER,General Services Charge
+NETWORK_OTHER,Jurisdictional Scheme Fixed
+NETWORK_OTHER,Jurisdictional Scheme Volume
+NETWORK_OTHER,Jurisdictional Scheme Volume Charge
+NETWORK_OTHER,Metering alteration - BUS HRS - NO CT
+NETWORK_OTHER,Miscellaneous Charges
+NETWORK_OTHER,Multi phase CT
+NETWORK_OTHER,Multi-phase CT
+NETWORK_OTHER,Network Charges - Distribution System Charge
+NETWORK_OTHER,Network Charges Adjustment
+NETWORK_OTHER,New Connection
+NETWORK_OTHER,No access (gas meter)
+NETWORK_OTHER,Permanent Removal of LV Supply
+NETWORK_OTHER,PV Installation - BH
+NETWORK_OTHER,PV Rebate below
+NETWORK_OTHER,Re-arrange connection assets
+NETWORK_OTHER,Re-energisation during business hours
+NETWORK_OTHER,Re-energisation-Recipient Discretion
+NETWORK_OTHER,Re-inspection for compliance
+NETWORK_OTHER,Reconnect - Complete
+NETWORK_OTHER,Reconnection - Fuse Insertion
+NETWORK_OTHER,Reconnection/Special Meter Read Site
+NETWORK_OTHER,Recons (incl Cust Tfr)
+NETWORK_OTHER,Remote Re-Energisation
+NETWORK_OTHER,Renewable Energy Charge
+NETWORK_OTHER,Request for Temporary Connection
+NETWORK_OTHER,Service Disconnection Request
+NETWORK_OTHER,Site Establishment Fee
+NETWORK_OTHER,Site Establishment per NMI
+NETWORK_OTHER,Small Business Tariff Class
+NETWORK_OTHER,Special Reference Read
+NETWORK_OTHER,Srv Truck Visit - BH
+NETWORK_OTHER,Street Lighting Supply Charge
+NETWORK_OTHER,Summer Generation
+NETWORK_OTHER,Supp abol CT Metered Sites
+NETWORK_OTHER,Supply enhancement - BUS HRS
+NETWORK_OTHER,Supply enhancement - Isolated
+NETWORK_OTHER,User Specific Charge
+NETWORK_OTHER,Vacant Property Site Visit
+NETWORK_OTHER,Wasted Truck Visit
+NETWORK_SERVICE,Common Services charge
+NETWORK_SERVICE,Demand and Capacity - DUOS Network Access Charge
+NETWORK_SERVICE,Demand and Capacity - TUOS Network Access Charge
+NETWORK_SERVICE,Distribution Charges - Access Charge
+NETWORK_SERVICE,Distribution Charges - Base Charge
+NETWORK_SERVICE,Distribution Charges - Fixed Charge
+NETWORK_SERVICE,Distribution Charges - Operation & Maintenance Charge
+NETWORK_SERVICE,Distribution Charges - Service Charge
+NETWORK_SERVICE,Distribution Charges - Supply Charge
+NETWORK_SERVICE,Distribution Charges - Supply Rate
+NETWORK_SERVICE,DUOS Fixed
+NETWORK_SERVICE,DUOS Fixed Charge
+NETWORK_SERVICE,DUoS Inclining Fixed Charge
+NETWORK_SERVICE,DUOS Network Access Charge
+NETWORK_SERVICE,EDSTT1 - Fixed
+NETWORK_SERVICE,EDSTXT1 - Fixed
+NETWORK_SERVICE,Environmental Charges - Network Access Charge
+NETWORK_SERVICE,General Services charge
+NETWORK_SERVICE,JSC Fixed
+NETWORK_SERVICE,Network - Access Charge
+NETWORK_SERVICE,Network - DUOS - Network Access Charge
+NETWORK_SERVICE,Network - Excess KVAr Charge
+NETWORK_SERVICE,Network - Network Access Charge
+NETWORK_SERVICE,Network - TUOS - Network Access Charge
+NETWORK_SERVICE,Network Access Charge
+NETWORK_SERVICE,Network Charges - Access Charge
+NETWORK_SERVICE,Network Charges - BLND3AO Supply Charge
+NETWORK_SERVICE,Network Charges - CMGB Supply Charge
+NETWORK_SERVICE,Network Charges - DUOS Network Access Charge
+NETWORK_SERVICE,Network Charges - Excess KVAr Charge
+NETWORK_SERVICE,Network Charges - Fixed Charge
+NETWORK_SERVICE,Network Charges - Network Access Charge
+NETWORK_SERVICE,Network Charges - Service Charge
+NETWORK_SERVICE,Network Charges - Supply Charge
+NETWORK_SERVICE,Network Charges - Supply Rate
+NETWORK_SERVICE,Network Charges - TUOS Network Access Charge
+NETWORK_SERVICE,Network Charges (RTOU) - Fixed
+NETWORK_SERVICE,Network Fixed Step
+NETWORK_SERVICE,Operation & Maintenance Charge
+NETWORK_SERVICE,PFIT Recovery
+NETWORK_SERVICE,Reconnection - Site Visit
+NETWORK_SERVICE,Reserve Feeder Charge
+NETWORK_SERVICE,Service Truck
+NETWORK_SERVICE,Single phase meter
+NETWORK_SERVICE,Standby Feeder Charge
+NETWORK_SERVICE,Supply Abolishment - Simple
+NETWORK_SERVICE,Three phase current transformer
+NETWORK_SERVICE,TOUS Fixed Charge
+NETWORK_SERVICE,Transmission Charges - Access Charge
+NETWORK_SERVICE,Transmission Charges - Fixed Charge
+NETWORK_SERVICE,Transmission Charges - Service Charge
+NETWORK_SERVICE,Transmission Charges - Supply Charge
+NETWORK_SERVICE,Transmission Charges - Supply Rate
+NETWORK_SERVICE,TUOS Fixed
+NETWORK_SERVICE,TUOS Fixed Charge
+NETWORK_SERVICE,TUoS Inclining Fixed Charge
+NETWORK_SERVICE,TUOS Network Access Charge
+OTHER_CHARGES,Adjustment of meter services charges
+OTHER_CHARGES,Adjustments - Credit adjustment
+OTHER_CHARGES,Adjustments - Gas Energy Charge Adjustment
+OTHER_CHARGES,Adjustments - Meter Charge Adj-DR
+OTHER_CHARGES,Adjustments - Network Charge Adj-CR
+OTHER_CHARGES,AEEI Adjustment
+OTHER_CHARGES,ANS security lighting - large
+OTHER_CHARGES,ANS security lighting - medium
+OTHER_CHARGES,ANS security lighting - small
+OTHER_CHARGES,"APPLIED ENERGY, NETWORK AND OTHER CHARGES ADJ EFF"
+OTHER_CHARGES,Balance of Account Refunded
+OTHER_CHARGES,Billed volume adj
+OTHER_CHARGES,Carbon Repeal Adjustment
+OTHER_CHARGES,Charge for Meter Relocation
+OTHER_CHARGES,Connection of Temporary Supply
+OTHER_CHARGES,Consumption adj
+OTHER_CHARGES,Credit Card Merchant Fee
+OTHER_CHARGES,Credit Claimed
+OTHER_CHARGES,Credit Refunded - Cheque
+OTHER_CHARGES,Credits - GSL Credit from DB TXU
+OTHER_CHARGES,Credits - Reversed account charge Readings Adjusted
+OTHER_CHARGES,Credits - Reversed account charge Readings Adjusted (01 Aug 2023 - 22 Oct 2023)
+OTHER_CHARGES,Credits - Reversed account charge Readings Adjusted (01 Jul 2023 - 23 Jul 2023)
+OTHER_CHARGES,Credits - Reversed account charge Readings Adjusted (24 Jul 2023 - 31 Jul 2023)
+OTHER_CHARGES,Credits - Unbillable consumption credit
+OTHER_CHARGES,Donation Reversal Adjustment
+OTHER_CHARGES,Electricity Charges - Meter Services Charge
+OTHER_CHARGES,Electricity Charges - Reversal of Cancelled Bill 313012434470
+OTHER_CHARGES,Electricity Charges - Reversal of Cancelled Bill 313628193889
+OTHER_CHARGES,Energy - Adjustment Amount Levy
+OTHER_CHARGES,Energy Charges - Adjustment Amount Levy
+OTHER_CHARGES,Energy Charges - Contract Overrun Charge
+OTHER_CHARGES,Ergon Clean Energy
+OTHER_CHARGES,Exit Fee
+OTHER_CHARGES,Frequent Momentary
+OTHER_CHARGES,Frequent Unplanned
+OTHER_CHARGES,Interest on Late Payment
+OTHER_CHARGES,Late Payment Interest Reversal
+OTHER_CHARGES,Meter Alteration Fee
+OTHER_CHARGES,Meter amp; VAS Charge
+OTHER_CHARGES,Meter Charge Adj
+OTHER_CHARGES,Meter Services Charge
+OTHER_CHARGES,Metering Charge Adjustment eff
+OTHER_CHARGES,NETW ADJ
+OTHER_CHARGES,Network Charge Adj
+OTHER_CHARGES,Network Charges - Negotiated Network Charge
+OTHER_CHARGES,Network Charges (RTOU) - AEMO Charge - Direction Compensation Recovery - Wk 36-39
+OTHER_CHARGES,Network Charges (RTOU) - GSL - DURATION : INTERRUPTION 60 HOURS
+OTHER_CHARGES,Network Charges eff
+OTHER_CHARGES,Network Demand Adjustment
+OTHER_CHARGES,Other Charges - COVID 19 Network Relief CR
+OTHER_CHARGES,Other charges - Disconnect/Reconnect Fee-DR
+OTHER_CHARGES,Other Charges - Gas Energy Charge Adjustment
+OTHER_CHARGES,Other Charges - Interest Charges
+OTHER_CHARGES,Other Charges - Interest Charges*
+OTHER_CHARGES,Other charges - MRM - Meter Removal Request
+OTHER_CHARGES,Other Charges - POA Relocation Charge
+OTHER_CHARGES,Other Charges - Reversal - Debit
+OTHER_CHARGES,Other charges - Reversal Debit
+OTHER_CHARGES,Other Charges - Reversal Debit*
+OTHER_CHARGES,Other charges - Special Meter Read Fee-DR
+OTHER_CHARGES,Other Charges - STTM Activity Charge
+OTHER_CHARGES,Other Charges & Credits - De-Energisation Unmetered Supply
+OTHER_CHARGES,Other Charges & Credits - Reversal of Previous Bill 12/10/22 to 19/10/22
+OTHER_CHARGES,Other Charges & Credits - Reversal of Previous Bill 19/10/22 to 31/10/22
+OTHER_CHARGES,Other Charges & Credits - Reversal of Previous Bill 30/09/22 to 12/10/22
+OTHER_CHARGES,Other Charges & Credits - Reversal of Previous Bill 30/09/22 to 31/10/22
+OTHER_CHARGES,QLD AUS Small Business
+OTHER_CHARGES,Qld Govt Asset Ownership
+OTHER_CHARGES,Removal of supply
+OTHER_CHARGES,Retail Service - Management Fee
+OTHER_CHARGES,Retail Service Charges - Concession Charge
+OTHER_CHARGES,Retail Service Charges - Management Fee
+OTHER_CHARGES,Reversal of Cancelled Bill
+OTHER_CHARGES,Reversal of Cancelled Bill 313012434470
+OTHER_CHARGES,Reversal of Cancelled Bill 313628193889
+OTHER_CHARGES,Reversal of Interest on Late Payment
+OTHER_CHARGES,Royal Flying Doctor Service Donations
+OTHER_CHARGES,SO charge for Allocate
+OTHER_CHARGES,SO charge for metering Site Establishment
+OTHER_CHARGES,SO charge for Site Alteration
+OTHER_CHARGES,SP2MP OH Upgrade BH Urb
+OTHER_CHARGES,Transferred from Finalised Account
+OTHER_CHARGES,Underground Service Upgrade
+OTHER_CHARGES,Upfront Meter Charges
+OTHER_CHARGES,Usage & supply charges - Unbillable consumption credit
+PAYMENT_APPLIED,Amount paid
+PAYMENT_APPLIED,"Credit applied since your last bill - Batch transfer: Remit processing (non-taxable, no GST)"
+PAYMENT_APPLIED,"Credits - Batch transfer: remit processing (non-taxable, no GST)"
+PAYMENT_APPLIED,Incoming Payment
+PAYMENT_APPLIED,Less Payments
+PAYMENT_APPLIED,MANUAL EFT PMT
+PAYMENT_APPLIED,Payment
+PAYMENT_APPLIED,Payment - Thank You
+PAYMENT_APPLIED,Payment On Account
+PAYMENT_APPLIED,Payment received
+PAYMENT_APPLIED,Payment Received - Thank You
+PAYMENT_APPLIED,Payment received as at
+PAYMENT_APPLIED,Payment Received On
+PAYMENT_APPLIED,Payment received thank you
+PAYMENT_APPLIED,Payment--ThankYou
+PAYMENT_APPLIED,PAYMENT(S) MADE
+PAYMENT_APPLIED,Payment(s) Received
+PAYMENT_APPLIED,Payment(s) Since Last Bill - Thank You
+PAYMENT_APPLIED,Payments
+PAYMENT_APPLIED,Payments - MANUAL EFT PMT
+PAYMENT_APPLIED,Payments and Adjustments - MANUAL EFT PMT
+PAYMENT_APPLIED,Payments received
+PAYMENT_APPLIED,Payments Received - Thank you
+PAYMENT_APPLIED,PAYMENTS RECEIVED THRU
+PAYMENT_APPLIED,Payments since then
+PAYMENT_APPLIED,Payments/Adjustments
+PAYMENT_APPLIED,Previous balance and payments - 12 Feb 24 payment
+PAYMENT_APPLIED,Previous balance and payments - 14 Jul 23 payment
+PAYMENT_APPLIED,Previous balance and payments - 17 Nov 23 payment
+PAYMENT_APPLIED,Previous balance and payments - 2 Feb 24 payment
+PAYMENT_APPLIED,Previous balance and payments - 2 May 24 payment
+PAYMENT_APPLIED,Previous balance and payments - 26 Jun 23 payment
+PAYMENT_APPLIED,Previous balance and payments - 4 Aug 23 payment
+PAYMENT_APPLIED,Previous balance and payments - 6 Dec 23 payment
+PAYMENT_APPLIED,Previous balance and payments - 8 Sep 23 payment
+PAYMENT_APPLIED,Previous balance and payments. - 10 Mar 23 payment
+PAYMENT_APPLIED,Previous balance and payments. - 17 Apr 23 payment
+PAYMENT_APPLIED,Previous balance and payments. - 19 May 23 payment
+PAYMENT_APPLIED,THANK YOU FOR YOUR PAYMENT
+PAYMENT_APPLIED,Total payments - Thank you
+PAYMENT_APPLIED,Total payments since then
+PAYMENT_APPLIED,TRANSFER
+PAYMENT_APPLIED,Transferred Payment
+PAYMENT_APPLIED,WBC BPAY PMT
+PAYMENT_APPLIED,WBC BPAY REV
+PAYMENT_APPLIED,What you paid
+PAYMENT_APPLIED,You paid us
+PAYMENT_APPLIED,You’ve paid us
+PAYMENT_APPLIED,Your payments
+SERVICE_OTHER,Agreement Fee
+SERVICE_OTHER,BACKFLOW ANNUAL TEST FEE
+SERVICE_OTHER,"Parks For the Dept. of Energy, Environment and Climate Action"
+SERVICE_OTHER,Water Flat Fee
+SERVICE_OTHER,Waterways & Drainage For Melbourne Water
+SEWERAGE_LINE_ITEMS,Billable discharge
+SEWERAGE_LINE_ITEMS,Com Sewer Charge
+SEWERAGE_LINE_ITEMS,Consumption Component
+SEWERAGE_LINE_ITEMS,Discharge
+SEWERAGE_LINE_ITEMS,gallons of sewer
+SEWERAGE_LINE_ITEMS,Liquid Trade Waste Compliant
+SEWERAGE_LINE_ITEMS,Liquid Trade Waste Non Complia
+SEWERAGE_LINE_ITEMS,METERED SEWER COMMERCIAL
+SEWERAGE_LINE_ITEMS,Non-metered
+SEWERAGE_LINE_ITEMS,North Olmsted Waste Water Charges
+SEWERAGE_LINE_ITEMS,Pressure sewerage charge
+SEWERAGE_LINE_ITEMS,Recycled use
+SEWERAGE_LINE_ITEMS,"Sanitary charges, based on total water"
+SEWERAGE_LINE_ITEMS,Sewage disposal
+SEWERAGE_LINE_ITEMS,Sewer - Based on AWC
+SEWERAGE_LINE_ITEMS,SEWER - COMMERCIAL
+SEWERAGE_LINE_ITEMS,Sewer - Minimum Charge
+SEWERAGE_LINE_ITEMS,Sewer - Tier
+SEWERAGE_LINE_ITEMS,Sewer ??Consumption
+SEWERAGE_LINE_ITEMS,Sewer Based On Water Use
+SEWERAGE_LINE_ITEMS,Sewer Charges
+SEWERAGE_LINE_ITEMS,Sewer Collection
+SEWERAGE_LINE_ITEMS,SEWER COM INS
+SEWERAGE_LINE_ITEMS,SEWER COMMERCIAL
+SEWERAGE_LINE_ITEMS,Sewer Commercial Class
+SEWERAGE_LINE_ITEMS,Sewer Commercial Usage
+SEWERAGE_LINE_ITEMS,Sewer Consumption
+SEWERAGE_LINE_ITEMS,Sewer Consumption Charge
+SEWERAGE_LINE_ITEMS,Sewer Flow Charge
+SEWERAGE_LINE_ITEMS,Sewer Restaurant Consumption Charge
+SEWERAGE_LINE_ITEMS,Sewer Service for
+SEWERAGE_LINE_ITEMS,Sewer Usage
+SEWERAGE_LINE_ITEMS,Sewer Usage Business
+SEWERAGE_LINE_ITEMS,Sewer Usage Charges
+SEWERAGE_LINE_ITEMS,Sewer Use
+SEWERAGE_LINE_ITEMS,SEWER VOLUME
+SEWERAGE_LINE_ITEMS,Sewer Volumetric Charge
+SEWERAGE_LINE_ITEMS,Sewerage Disposal Charge
+SEWERAGE_LINE_ITEMS,Strength Factor
+SEWERAGE_LINE_ITEMS,SW-SEWER
+SEWERAGE_LINE_ITEMS,TIPPING CLOACA
+SEWERAGE_LINE_ITEMS,Usage charges
+SEWERAGE_LINE_ITEMS,USAGEPER
+SEWERAGE_LINE_ITEMS,Volumetric Charge
+SEWERAGE_LINE_ITEMS,Volumetric Waste
+SEWERAGE_LINE_ITEMS,Wastewater
+SEWERAGE_LINE_ITEMS,Wastewater Metered Commercial
+SEWERAGE_LINE_ITEMS,Wastewater treatment charges
+SEWERAGE_LINE_ITEMS,Wastewater usage
+SEWERAGE_LINE_ITEMS,Wastewater usage 1 Jul 2023 - 1 Jul 2023
+SEWERAGE_LINE_ITEMS,Wastewater usage 2 Jun 2023 - 30 Jun 2023
+SEWERAGE_LINE_ITEMS,Wastewater Usage Charge
+SEWERAGE_SERVICE,Assessed Sewerage
+SEWERAGE_SERVICE,BASE CHARGE - SEWER
+SEWERAGE_SERVICE,Basic monthly
+SEWERAGE_SERVICE,Basic monthly service charge
+SEWERAGE_SERVICE,Commercial Trade Waste
+SEWERAGE_SERVICE,Drainage non-residential
+SEWERAGE_SERVICE,Drainage Service
+SEWERAGE_SERVICE,Full Fixed Sewerage Charge
+SEWERAGE_SERVICE,Highway Drainage
+SEWERAGE_SERVICE,Metered Foul Sewerage
+SEWERAGE_SERVICE,Metered Potable Water Block Tariff
+SEWERAGE_SERVICE,Metered Sewerage Supply Point
+SEWERAGE_SERVICE,NON RESIDENTIAL SEWER CHARGE AND USAGE
+SEWERAGE_SERVICE,NON-DOMSEWER
+SEWERAGE_SERVICE,PRESSURE SEWER CHARGE
+SEWERAGE_SERVICE,Sewer Customer Charge
+SEWERAGE_SERVICE,SEWER MINIMUM CHARGE
+SEWERAGE_SERVICE,Sewer Service
+SEWERAGE_SERVICE,SEWERAGE NETWORK CHARGE
+SEWERAGE_SERVICE,Sewerage non-residential
+SEWERAGE_SERVICE,SEWERAGE SERVICE
+SEWERAGE_SERVICE,SEWERAGE SERVICE CHARGE
+SEWERAGE_SERVICE,Sewerage vacant
+SEWERAGE_SERVICE,STMWA COMM
+SEWERAGE_SERVICE,Storm water drainag earea
+SEWERAGE_SERVICE,storm water drainage charge
+SEWERAGE_SERVICE,Stormwater
+SEWERAGE_SERVICE,STORMWATER MANAGEMENT
+SEWERAGE_SERVICE,STORMWATER MGMT FEE
+SEWERAGE_SERVICE,Stormwater Non Residential
+SEWERAGE_SERVICE,STORMWATER QUALITY
+SEWERAGE_SERVICE,STRM WTR COMMERCIAL
+SEWERAGE_SERVICE,Surface Water and Highway
+SEWERAGE_SERVICE,Surface Water Drainage
+SEWERAGE_SERVICE,SWR-COMM LOW USE
+SEWERAGE_SERVICE,TCEQ-Sewer
+SEWERAGE_SERVICE,Total Waste safe administration charge
+SEWERAGE_SERVICE,TRADE WASTE
+SEWERAGE_SERVICE,Waste Water Site Fixed Charge
+SEWERAGE_SERVICE,Wastewater - Category
+SEWERAGE_SERVICE,Wastewater (sewerage) service
+SEWERAGE_SERVICE,Wastewater Base Charge
+SEWERAGE_SERVICE,Wastewater Basic Service Charge
+SEWERAGE_SERVICE,Wastewater Billing Fee
+SEWERAGE_SERVICE,Wastewater Commercial - Base Fee
+SEWERAGE_SERVICE,WASTEWATER CUSTOMER CHARGE
+SEWERAGE_SERVICE,Wastewater service charge (20mm)
+SEWERAGE_SERVICE,Wastewater service charge (20mm) 1 Jul 2023 - 1 Jul 2023
+SEWERAGE_SERVICE,Wastewater service charge (20mm) 2 Jun 2023 - 30 Jun 2023
+SEWERAGE_SERVICE,Wastewater service charge 1 Jul 2023 - 1 Jul 2023
+SEWERAGE_SERVICE,Water Volume Charge
+SEWERAGE_SERVICE,WATERWAYS CHARGE
+SEWERAGE_SERVICE,WW MONTHLY CUSTOMER
+REACTIVES,Network charges - Reactive Energy
