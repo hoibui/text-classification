@@ -4,7 +4,7 @@ services:
   text-classifier:
     build: .
     ports:
-      - "${API_PORT:-8000}:${API_PORT:-8000}"
+      - "${API_PORT:-8001}:${API_PORT:-8001}"
     volumes:
       - ./models:/app/models
       - ./logs:/app/logs
