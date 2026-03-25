@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   text-classifier:
     build: .
@@ -14,7 +12,15 @@ services:
     environment:
       - PYTHONPATH=/app
       - DB_HOST=host.docker.internal  # Override for Docker networking
+    command: ["python", "src/main.py", "serve", "--host", "0.0.0.0", "--port", "${API_PORT:-8001}", "--workers", "1"]
     restart: unless-stopped
+    # depends_on:
+      # - postgres  # Commented out since using local PostgreSQL
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:${API_PORT:-8001}/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
   mlflow:
     image: python:3.9-slim
@@ -57,5 +63,43 @@ services:
       - GF_USERS_ALLOW_SIGN_UP=false
     restart: unless-stopped
 
+  # postgres:  # Commented out since using local PostgreSQL
+  #   image: postgres:13
+  #   ports:
+  #     - "${DB_PORT:-5432}:5432"
+  #   environment:
+  #     - POSTGRES_DB=${DB_NAME:-mlops}
+  #     - POSTGRES_USER=${DB_USER:-admin}
+  #     - POSTGRES_PASSWORD=${DB_PASSWORD:-admin}
+  #   volumes:
+  #     - postgres-data:/var/lib/postgresql/data
+  #     - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+  #   restart: unless-stopped
+  #   healthcheck:
+  #     test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-admin}"]
+  #     interval: 30s
+  #     timeout: 10s
+  #     retries: 3
+
+  # Training service (run once)
+  trainer:
+    build: .
+    volumes:
+      - ./models:/app/models
+      - ./logs:/app/logs
+      - ./data:/app/data
+    env_file:
+      - .env
+    environment:
+      - PYTHONPATH=/app
+      - DB_HOST=host.docker.internal  # Connect to host PostgreSQL
+    command: ["./run_trainer.sh", "docker_model", "2.0.0"]
+    # depends_on:
+      # postgres:
+        # condition: service_healthy  # Commented out since using local PostgreSQL
+    profiles:
+      - training  # Only run when specifically requested
+
 volumes:
   grafana-storage:
+  # postgres-data:  # Commented out since using local PostgreSQL

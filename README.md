@@ -1,15 +1,33 @@
-# Text Classification System
+# Text Classification System 🚀
 
-A professional, scalable ML system for text classification with comprehensive MLOps capabilities.
+A professional, scalable ML system for text classification built with **Clean Architecture** and comprehensive MLOps capabilities.
 
-## Features
+## ✨ Features
 
-- **Multiple Model Support**: Traditional ML (Logistic Regression, Random Forest, SVM, etc.) and Transformer models
-- **Production-Ready API**: FastAPI-based REST API with health checks and monitoring
-- **MLOps Pipeline**: Model versioning, experiment tracking, and automated retraining
-- **Monitoring & Observability**: Prometheus metrics, logging, and data drift detection
-- **Containerized Deployment**: Docker and Docker Compose setup
-- **CI/CD Integration**: GitHub Actions workflows for testing and deployment
+### 🏗️ **Clean Architecture**
+- **Domain-Driven Design**: Business logic separated from infrastructure concerns
+- **SOLID Principles**: Maintainable, testable, and extensible codebase
+- **Dependency Injection**: Loosely coupled components for easy testing and swapping
+- **Layered Architecture**: Domain, Application, Infrastructure, and Presentation layers
+
+### 🤖 **Machine Learning**
+- **Traditional ML Models**: Logistic Regression, Random Forest, SVM, Naive Bayes, Gradient Boosting
+- **Advanced Feature Engineering**: TF-IDF word/character n-grams with optimal parameters
+- **Model Registry**: Version management and model lifecycle tracking
+- **Automated Training**: CLI-based training with configurable pipelines
+- **Performance Monitoring**: Comprehensive metrics and model evaluation (98%+ accuracy)
+
+### 🚀 **Production-Ready**
+- **FastAPI REST API**: High-performance API with automatic documentation
+- **Health Checks**: System and model health monitoring
+- **Prometheus Metrics**: Comprehensive observability and monitoring
+- **Containerized Deployment**: Docker and Docker Compose support
+
+### 🔧 **MLOps & DevOps**
+- **Environment-Driven Config**: All settings via environment variables
+- **Database Integration**: PostgreSQL for model registry and metrics
+- **MLflow Integration**: Experiment tracking and model versioning
+- **Team-Friendly Setup**: One-command setup for all team members
 
 ## Quick Start
 
@@ -47,97 +65,169 @@ python setup_database.py
 ### 4. Train the Model
 
 ```bash
+# Train with default settings
 ./run_trainer.sh
-# or activate environment first:
-# source venv/bin/activate && python src/trainer.py
+
+# Train with custom parameters
+./run_trainer.sh custom_model 2.0.0 data/train.csv
+
+# Advanced training options
+python src/main.py train --name custom_model --version 1.0.0 --data-path data/custom_train.csv
 ```
 
 ### 5. Start the API Server
 
 ```bash
-python -m uvicorn src.api:app --host 0.0.0.0 --port 8001
+# Start API server with default settings
+./run_api.sh
+
+# Or with custom settings
+python src/main.py serve --host 0.0.0.0 --port 8001 --workers 4
 ```
 
 ### 6. Make Predictions
 
 ```bash
-curl -X POST "http://localhost:8001/predict" \
+# Single prediction
+curl -X POST "http://localhost:8001/classify/" \
      -H "Content-Type: application/json" \
-     -d '{"text": "Your text to classify here"}'
+     -d '{"text": "renewable energy certificate costs", "return_confidence": true}'
+
+# Expected response:
+# {
+#   "text": "renewable energy certificate costs",
+#   "predicted_label": "CERTIFICATES",
+#   "confidence": 0.41,
+#   "probabilities": {"CERTIFICATES": 0.41, "GREEN": 0.16, ...},
+#   "model_version": "tfidf_char_random_forest-best_model_...",
+#   "processing_time": 0.045
+# }
 ```
 
-## Docker Deployment
+### 7. Model Management
+
+```bash
+# List all models
+python src/main.py list
+
+# List models by status
+python src/main.py list --status ready
+```
+
+## 🐳 Docker Deployment
 
 ### Prerequisites
 First complete the setup steps to create your `.env` file with proper configuration.
 
-### Build and Run
+### Quick Start with Docker
 
 ```bash
-# Make sure .env file is configured first
+# 1. Make sure .env file is configured
+./setup.sh
+
+# 2. Start all services (API + Database + Monitoring)
+docker-compose up -d
+
+# 3. Train a model in Docker
+docker-compose exec text-classifier ./run_trainer.sh
+
+# 4. Check running services
+docker-compose ps
+```
+
+### Services Started
+
+```bash
 docker-compose up -d
 ```
 
 This starts:
-- Text Classification API (port from API_PORT env var, default 8000)
-- MLflow Tracking Server (port 5000)
-- Prometheus Monitoring (port 9090)
-- Grafana Dashboard (port 3000)
-
-### Local Development with Docker
-
-For development with hot reloading and source code mounting:
-
-```bash
-# Copy and customize the override file
-cp docker-compose.override.yml.example docker-compose.override.yml
-
-# Edit docker-compose.override.yml and uncomment the development settings
-# Then start with the override
-docker-compose up -d
-```
+- **Text Classification API** (port from API_PORT env var, default 8001)
+- **PostgreSQL Database** (port 5432) - for model registry
+- **MLflow Tracking Server** (port 5000) - experiment tracking
+- **Prometheus Monitoring** (port 9090) - metrics collection
 
 ### Access Services
 
-- API Documentation: http://localhost:${API_PORT}/docs (default: http://localhost:8000/docs)
+- API Documentation: http://localhost:8001/docs
 - MLflow UI: http://localhost:5000
 - Prometheus: http://localhost:9090
-- Grafana: http://localhost:3000 (admin/admin)
 
-## API Endpoints
+## 🔌 API Endpoints
 
-### Single Prediction
+The Clean Architecture API provides the following endpoints:
+
+### 📝 Text Classification
+
+#### Single Text Classification
 ```bash
-POST /predict
+POST /classify/
 {
-  "text": "Your text to classify",
-  "return_confidence": true
+  "text": "Your text to classify here",
+  "return_confidence": true,
+  "request_id": "optional-request-id"
 }
 ```
 
-### Batch Predictions
-```bash
-POST /predict/batch
+**Response:**
+```json
 {
-  "texts": ["First text to classify", "Second text to classify"],
-  "return_confidence": true
+  "text": "Your text to classify here",
+  "predicted_label": "CATEGORY_A",
+  "confidence": 0.95,
+  "probabilities": {
+    "CATEGORY_A": 0.95,
+    "CATEGORY_B": 0.04,
+    "CATEGORY_C": 0.01
+  },
+  "model_version": "tfidf_char_random_forest-best_model_20260325_091723",
+  "processing_time": 0.023,
+  "request_id": "optional-request-id",
+  "timestamp": "2024-01-01T12:00:00Z"
 }
 ```
 
-### Health Check
+#### Batch Text Classification
+```bash
+POST /classify/batch
+{
+  "texts": ["First text", "Second text", "Third text"],
+  "return_confidence": true,
+  "batch_id": "optional-batch-id"
+}
+```
+
+### 🏥 System Health
+
+#### Health Check
 ```bash
 GET /health
 ```
 
-### Model Information
-```bash
-GET /model/info
+**Response:**
+```json
+{
+  "status": "healthy",
+  "timestamp": "2024-01-01T12:00:00Z",
+  "version": "2.0.0",
+  "model_loaded": true,
+  "database_connected": true
+}
 ```
 
-### Metrics
+### 📊 Monitoring
+
+#### Prometheus Metrics
 ```bash
 GET /metrics
 ```
+
+Returns Prometheus-formatted metrics for monitoring and alerting.
+
+### 📚 Interactive Documentation
+
+- **Swagger UI**: http://localhost:8001/docs
+- **ReDoc**: http://localhost:8001/redoc
 
 ## Configuration
 
@@ -150,86 +240,111 @@ The system uses environment variables for configuration:
 - **MLFLOW_TRACKING_URI**: MLflow tracking server URL
 - **MLFLOW_EXPERIMENT_NAME**: Name for MLflow experiment
 - **MODEL_SAVE_PATH**: Directory to save trained models
-- **API_HOST/API_PORT**: API server configuration
+- **API_HOST/API_PORT**: API server configuration (default port 8001)
 - **LOG_LEVEL**: Logging level (INFO, DEBUG, etc.)
 
 ### Configuration Files
 
 - `.env`: Your personal environment configuration (not in git)
 - `.env.example`: Template file for team members
-- `config.yaml`: Model parameters and training settings (uses environment variables)
+- `config.yaml`: Model parameters and training settings
 
-## Model Registry
+## Model Performance
 
-The system includes a model registry for version management:
+The system automatically evaluates multiple traditional ML algorithms and selects the best performer:
 
-```python
-from src.model_registry import ModelRegistry
+### 🎯 **Current Performance (98.24% Accuracy)**
+- **Best Model**: TF-IDF Character-level Random Forest
+- **Feature Engineering**: Character n-grams (1-4) with TF-IDF weighting
+- **Cross-Validation**: Stratified K-fold validation
+- **Metrics**: Comprehensive accuracy, precision, recall, F1-score reporting
 
-registry = ModelRegistry()
+### 🔄 **Algorithms Evaluated**
+- **Logistic Regression**: Linear classification with regularization
+- **Random Forest**: Ensemble method with multiple decision trees
+- **Support Vector Machine (SVM)**: Kernel-based classification
+- **Naive Bayes**: Probabilistic classification
+- **Gradient Boosting**: Sequential ensemble learning
 
-# Register a new model
-model_id = registry.register_model(
-    name="text_classifier",
-    version="1.1.0",
-    file_path="models/new_model.pkl",
-    performance_metrics={"accuracy": 0.96},
-    make_active=True
-)
+### 📊 **Feature Engineering**
+- **TF-IDF Vectorization**: Term Frequency-Inverse Document Frequency
+- **Character N-grams**: 1-4 character sequences for better pattern recognition
+- **Word N-grams**: 1-2 word sequences for semantic understanding
+- **Automatic Feature Selection**: Best performing features selected automatically
 
-# Load active model
-model = registry.load_active_model("text_classifier")
+## 🏗️ Clean Architecture Structure
+
+This project follows **Clean Architecture** principles with clear separation of concerns:
+
+```
+src/
+├── domain/                 # 🔵 Domain Layer (Business Logic)
+│   ├── entities/          # Business entities (Model, Classification)
+│   ├── repositories/      # Repository interfaces
+│   ├── services/         # Domain service interfaces
+│   └── value_objects/    # Value objects (Confidence, Version)
+├── application/           # 🟢 Application Layer (Use Cases)
+│   ├── use_cases/        # Business use cases
+│   └── dto/              # Data transfer objects
+├── infrastructure/       # 🟡 Infrastructure Layer (External Concerns)
+│   ├── config/          # Configuration and DI container
+│   ├── repositories/    # Database implementations
+│   └── services/        # ML and monitoring services
+├── presentation/         # 🟠 Presentation Layer (API)
+│   ├── api/             # REST API controllers
+│   └── schemas/         # Request/response schemas
+└── main.py              # CLI entry point and orchestration
 ```
 
-## Monitoring
-
-The system includes comprehensive monitoring:
-
-- **Performance Metrics**: Response times, accuracy, error rates
-- **System Metrics**: CPU, memory, disk usage
-- **Data Drift Detection**: Automatic detection of data distribution changes
-- **Health Checks**: API and model health status
-
-## CI/CD Pipeline
-
-GitHub Actions workflows provide:
-
-- **Testing**: Automated testing on push/PR
-- **Model Validation**: Validates model training pipeline
-- **Docker Build**: Builds and pushes container images
-- **Scheduled Retraining**: Weekly automatic model retraining
-
-## Project Structure
+### 📁 Project Structure
 
 ```
 text-classification/
-├── src/
-│   ├── __init__.py
-│   ├── trainer.py          # Model training pipeline
-│   ├── api.py              # FastAPI application
-│   ├── monitor.py          # Monitoring and logging
-│   └── model_registry.py   # Model versioning
-├── data/
-│   └── train.csv           # Training data
-├── models/                 # Saved models (excluded from git)
-├── logs/                   # Log files (excluded from git)
-├── venv/                   # Virtual environment (excluded from git)
-├── monitoring/
-│   └── prometheus.yml      # Prometheus configuration
-├── .github/
-│   └── workflows/          # CI/CD pipelines
-├── .env                    # Environment variables (excluded from git)
-├── .env.example            # Environment template (included in git)
-├── config.yaml             # Configuration file (uses env variables)
-├── requirements.txt        # Python dependencies
-├── setup.sh                # Automated setup script
-├── run_trainer.sh          # Script to run trainer
-├── Dockerfile              # Container image
-├── docker-compose.yml      # Multi-service deployment
-├── docker-compose.override.yml        # Local dev overrides (excluded from git)
-├── docker-compose.override.yml.example # Override template (included in git)
-└── README.md               # This file
+├── src/                    # Clean Architecture source code
+│   ├── domain/            # Business logic (framework-independent)
+│   ├── application/       # Use cases and DTOs
+│   ├── infrastructure/    # External services and data access
+│   ├── presentation/      # API controllers and schemas
+│   └── main.py           # CLI interface
+├── data/                  # Training and test data
+├── models/               # Saved models (excluded from git)
+├── logs/                 # Log files (excluded from git)
+├── mlruns/              # MLflow experiment tracking
+├── monitoring/           # Monitoring and observability
+├── .env                 # Environment variables (excluded from git)
+├── .env.example         # Environment template
+├── config.yaml          # Model training configuration
+├── requirements.txt     # Python dependencies
+├── setup.sh            # One-command setup script
+├── run_trainer.sh      # Training script
+├── run_api.sh          # API server script
+├── list_models.sh      # Model management script
+├── Dockerfile          # Container image
+├── docker-compose.yml  # Multi-service deployment
+└── README.md           # This documentation
 ```
+
+## 🎯 Clean Architecture Benefits
+
+### ✅ **Testability**
+- **Unit Tests**: Mock dependencies easily with interfaces
+- **Integration Tests**: Test layers in isolation
+- **End-to-End Tests**: Test complete user workflows
+
+### ✅ **Maintainability**
+- **Clear Boundaries**: Each layer has single responsibility
+- **Loose Coupling**: Easy to modify without breaking other parts
+- **Dependency Inversion**: Business logic doesn't depend on frameworks
+
+### ✅ **Scalability**
+- **Pluggable Architecture**: Swap ML frameworks or databases easily
+- **Team Scaling**: Multiple developers can work on different layers
+- **Feature Addition**: Add new use cases without touching existing code
+
+### ✅ **Framework Independence**
+- **ML Framework Agnostic**: Easy to switch between scikit-learn implementations
+- **Database Agnostic**: Switch from PostgreSQL to other databases easily
+- **API Framework Agnostic**: Replace FastAPI with other frameworks if needed
 
 ## Data Format
 
@@ -244,14 +359,15 @@ CATEGORY_B,Text sample for category B
 CATEGORY_C,Text sample for category C
 ```
 
-## Model Performance
+## Monitoring
 
-The system automatically evaluates multiple algorithms and selects the best performer:
+The system includes comprehensive monitoring:
 
-- **Traditional ML Models**: Logistic Regression, Random Forest, SVM, Naive Bayes
-- **Deep Learning**: DistilBERT transformer model
-- **Feature Engineering**: TF-IDF word/character n-grams, Count vectors
-- **Evaluation**: Cross-validation, comprehensive metrics reporting
+- **Performance Metrics**: Response times, accuracy, error rates
+- **System Metrics**: CPU, memory, disk usage
+- **Model Metrics**: Classification performance and drift detection
+- **Health Checks**: API and model health status
+- **MLflow Tracking**: Experiment logging and model versioning
 
 ## Security
 
@@ -259,6 +375,7 @@ The system automatically evaluates multiple algorithms and selects the best perf
 - No credential exposure in logs
 - Container security best practices
 - Health check endpoints for monitoring
+- Environment-based configuration for sensitive data
 
 ## Contributing
 
